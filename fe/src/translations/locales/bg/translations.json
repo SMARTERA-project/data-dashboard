@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "Начало",
+    "dashboard": "Табло с данни",
+    "analysis": "Анализ",
+    "help": "Помощ"
+  },
+  "notFound": {
+    "title": "Страницата не е намерена",
+    "description": "Страницата, която търсите, не съществува или е преместена.",
+    "backButton": "Към началната страница"
+  },
+  "help": {
+    "title": "Помощ и насоки",
+    "sections": {
+      "dataTitle": "Работа с индикатори",
+      "dataText": "Индикаторите се изчисляват за избрани селски райони и са свързани с регионите NUTS 2 и NUTS 3. Използвайте страниците на таблото и анализа, за да разглеждате стойности, да сравнявате локации и да четете подробни обяснения за всеки индикатор.",
+      "mapTitle": "Разбиране на NUTS картите",
+      "mapText": "Картата вдясно показва границите на регионите NUTS 2 и NUTS 3 и подчертава регионите, използвани в проекта. Можете да превключвате нивата, за да видите как местните пилотни райони се вписват в по-широките статистически региони."
+    },
+    "buttons": {
+      "backHome": "Обратно към началната страница",
+      "contact": "Свържете се с поддръжка"
+    },
+    "map": {
+      "nuts2": "NUTS 2",
+      "nuts3": "NUTS 3",
+      "alt": "Карта на регионите {{level}}, използвани в проекта",
+      "caption": "Източник: официална NUTS класификация (Eurostat).",
+      "levelToggleAria": "Изберете ниво на NUTS карта"
+    }
+  },
+  "footer": {
+    "euLogoText1": "Съфинансирано от",
+    "euLogoText2": "Европейски съюз"
+  },
+  "drawer": {
+    "title": "Региони",
+    "search": "Търсене на регион"
+  },
+  "searchfilter": {
+    "searchfordata": "Търсене на данни",
+    "suggestedsearch": "Предложено търсене",
+    "areaLevel": "Ниво на област",
+    "showingdatafor": "Показване на данни за",
+    "area": "Област",
+    "search": "Търсене по заглавие",
+    "hint": {
+      "country": "Държавно ниво",
+      "nuts1": "Ниво NUTS 1",
+      "nuts2": "Ниво NUTS 2",
+      "nuts3": "Ниво NUTS 3",
+      "pilotRegion": "Ниво на пилотен регион"
+    }
+  },
+  "homepage": {
+    "title": "SMART ERA",
+    "description": "Този проект на ЕС използва дигиталната ера и умни стратегии, за да вдъхне нов живот в тези региони, превръщайки предизвикателствата в възможности. От обновяване на инфраструктурата до насърчаване на предприемачеството, ние създаваме практични решения, които имат реален ефект. С всяка стъпка ние изграждаме бъдеще, в което селските райони привличат таланти и инвестиции и полагат основите за устойчив растеж."
+  },
+  "OSM": {
+    "coworkingSpace": "Coworking пространство",
+    "companyOffice": "Офис на компания"
+  },
+  "OSM_governance": {
+    "townhall": "Кметство",
+    "courthouse": "Съд",
+    "governmentBuilding": "Държавна сграда",
+    "police": "Полиция",
+    "fireStation": "Пожарна служба"
+  },
+  "OSM_mobility": {
+    "parking": "Паркинг",
+    "fuelStation": "Бензиностанция",
+    "cycleBarrier": "Вело бариера",
+    "motorcycleBarrier": "Бариера за мотоциклети",
+    "motorway": "Магистрала",
+    "trainStation": "Гара",
+    "publicTransport": "Обществен транспорт",
+    "railways": "Железници"
+  },
+  "OSM_economy": {
+    "alpineHut": "Планинска хижа",
+    "campPitch": "Къмпинг място",
+    "campSite": "Къмпинг",
+    "caravanSite": "Къмпинг за каравани",
+    "chalet": "Шале",
+    "guestHouse": "Къща за гости",
+    "hostel": "Хостел",
+    "hotel": "Хотел",
+    "motel": "Мотел",
+    "restaurant": "Ресторант",
+    "cinema": "Кино",
+    "vendingMachine": "Вендинг автомат",
+    "pipeline": "Тръбопровод",
+    "industrialWorks": "Индустриален обект",
+    "touristAttraction": "Туристическа атракция",
+    "touristInfo": "Туристическа информация",
+    "museum": "Музей"
+  },
+  "OSM_environment": {
+    "forest": "Гора",
+    "river": "Река",
+    "garden": "Градина",
+    "park": "Парк",
+    "nationalPark": "Национален парк",
+    "protectedArea": "Защитена зона",
+    "natureReserve": "Природен резерват"
+  },
+  "OSM_environmentAdditional": {
+    "waterPoint": "Воден пункт",
+    "recycling": "Рециклиране",
+    "wastewaterPlant": "Пречиствателна станция за отпадни води"
+  },
+  "OSM_service": {
+    "hospital": "Болница",
+    "bank": "Банка",
+    "cafe": "Кафене",
+    "pharmacy": "Аптека",
+    "cinema": "Кино",
+    "marketplace": "Пазар",
+    "shops": "Магазини",
+    "museum": "Музей"
+  },
+  "OSM_serviceEducation": {
+    "kindergarten": "Детска градина",
+    "school": "Училище",
+    "college": "Колеж",
+    "university": "Университет",
+    "educationOffice": "Образователна служба",
+    "employmentOffice": "Бюро по труда"
+  },
+  "Want to learn more?": "Искате ли да научите повече?",
+  "Access the comprehensive PDF reports below.": "Достъп до подробните PDF отчети по-долу.",
+  "Download PDF": "Изтегляне на PDF",
+  "Open report": "Отвори отчета",
+  "Index": "Индекс",
+  "dashboard": {
+    "tabs": {
+      "general": "Обща информация",
+      "enablingFactors": "Улесняващи фактори",
+      "mobilityTransport": "Мобилност и транспорт",
+      "governancePolicy": "Управление и политики",
+      "economy": "Икономика",
+      "environment": "Околна среда",
+      "services": "Услуги"
+    },
+    "pilot": {
+      "smarje-padna": {
+        "title": "Шмарје–Падна",
+        "country": "Словения",
+        "nuts1": "Словения",
+        "nuts2": "Западна Словения",
+        "nuts3": "Прибрежно–Карст"
+      },
+      "devetaki-plateau": {
+        "title": "Плато Деветаки",
+        "country": "България",
+        "nuts1": "Северна и Югоизточна България",
+        "nuts2": "Северозападен",
+        "nuts3": "Ловеч"
+      },
+      "northern-ostrobothnia": {
+        "title": "Северно Остоботния",
+        "country": "Финландия",
+        "nuts1": "Материкова Финландия",
+        "nuts2": "Северна и Източна Финландия",
+        "nuts3": "Северно Остоботния"
+      },
+      "valle-di-sole": {
+        "title": "Вале ди Солe",
+        "country": "Италия",
+        "nuts1": "Североизток",
+        "nuts2": "Автономна провинция Тренто",
+        "nuts3": "Автономна провинция Тренто"
+      },
+      "east-herzegovina": {
+        "title": "Източна Херцеговина",
+        "country": "Босна и Херцеговина",
+        "nuts1": "Босна и Херцеговина"
+      },
+      "tramuntana-soller": {
+        "title": "Трамунтана/Солер",
+        "country": "Испания",
+        "nuts1": "Изток",
+        "nuts2": "Балеарски острови",
+        "nuts3": "Майорка"
+      }
+    },
+    "maps": {
+      "general": {
+        "populationDensity": "Гъстота на населението"
+      },
+      "enablingFactors": {
+        "mobileCoverage": "Покритие на мобилната мрежа по технологии",
+        "gsmCoverage": "Покритие 2G",
+        "coverage3g": "Покритие 3G",
+        "coverage4g": "Покритие 4G",
+        "cellTowerDensity": "Гъстота на базовите станции",
+        "numberOfCellTowers": "Брой базови станции"
+      },
+      "mobilityTransport": {
+        "dailyBusStopFrequency": "Дневна честота на автобусните спирки",
+        "busStopDensity": "Гъстота на автобусните спирки",
+        "numberOfBusStops": "Брой автобусни спирки",
+        "cyclingWalkingInfrastructure": "Инфраструктура за колоездене и пешеходци",
+        "allCyclingAccessiblePathLength": "Дължина на всички пътеки, достъпни за колоездене",
+        "designatedWalkingCyclingPathLength": "Дължина на обозначените пешеходни и велосипедни пътеки",
+        "residentialWalkingCyclingPathLength": "Дължина на пешеходни и велосипедни пътеки в жилищни зони",
+        "summedWalkingCyclingPathLength": "Сумирана дължина на пътеките"
+      },
+      "services": {
+        "postalServiceDensity": "Гъстота на пощенските услуги",
+        "postOfficeDensity": "Гъстота на пощенските офиси",
+        "numberOfPostOffices": "Брой пощенски офиси",
+        "postBoxDensity": "Гъстота на пощенските кутии",
+        "numberOfPostBoxes": "Брой пощенски кутии",
+        "carAccessibility": "Достъп с автомобил",
+        "carAccessibilityPost": "Достъп с автомобил до пощенски услуги",
+        "carAccessibilityEvCharger": "Достъп с автомобил до зарядни станции за електрически автомобили",
+        "carAccessibilityGroceryStore": "Достъп с автомобил до магазини за хранителни стоки",
+        "carAccessibilityLibrary": "Достъп с автомобил до библиотеки"
+      },
+      "helpers": {
+        "available": "Налично",
+        "notAvailable": "Не е налично"
+      }
+    },
+    "charts": {
+      "general": {
+        "leadingCitizenships": "Водещи гражданства на живущите",
+        "totalPopulationChange": "Общо изменение на населението с течение на времето",
+        "yearlyLiveBirths": "Годишни живородени (последни годишни данни)",
+        "yearlyDeaths": "Годишни смъртни случаи (последни годишни данни)",
+        "netMigrations": "Нетни миграции (коригирани) с течение на времето",
+        "populationBySex": "Население по пол",
+        "populationByAgeAndSex": "Население по възрастови групи и пол",
+        "populationByMaritalStatus": "Население по семейно положение",
+        "populationByHouseholdTypeAgeSex": "Население по тип домакинство, възрастова група и пол (преброяване ",
+        "populationDensity": "Гъстота на населението (хора на км²)",
+        "maritalStatusDistribution": "Разпределение по семейно положение"
+      },
+      "enablingFactors": {
+        "internetUseFrequency": "Честота на използване на интернет от индивидите (в %)",
+        "householdsWithInternetAccess": "Процент домакинства с достъп до интернет",
+        "internetUseActivities": "Дейности при използване на интернет от индивидите (в %)",
+        "buyingOnlineLast3Months": "% Онлайн покупки (последните 3 месеца)",
+        "buyingOnlineLast3MonthsOverTime": "% Онлайн покупки (последните 3 месеца) с течение на времето",
+        "onlineInteractionWithAuthorities": "% Онлайн взаимодействие с властите (последната година)",
+        "internetAccessSpeedEnterprises": "Скорост на интернет връзката в предприятията",
+        "enablingInfrastructure": "Поддържаща инфраструктура"
+      },
+      "economy": {
+        "gvaByCurrency": "Брутна добавена стойност по валута",
+        "nominalLabourProductivity": "Номинална трудова производителност в € на човек",
+        "gdpLastYear": "БВП за последната отчетена година",
+        "employedPersonsNACE": "Заети лица (NACE)",
+        "topEmploymentCategories": "Най-големи категории на заетост",
+        "gdpPerInhabitant": "БВП на човек в млн. €",
+        "employmentByBusinessSector": "Заетост по икономически сектор",
+        "enterpriseSizeClass": "Клас на размер на предприятията (индустрия, строителство и пазарни услуги)",
+        "patentApplicationsPerMillion": "Брой патентни заявки на милион жители",
+        "highGrowthEnterprises": "Брой предприятия с висок растеж (HGE) по заетост – топ сектори (последна година)",
+        "bihActivitiesIndex": "Индекс на дейностите",
+        "totalServicesIndex": "Индекс на услугите – общо",
+        "totalNetEarningsBIH": "Общи нетни доходи",
+        "totalGrossEarningsBIH": "Общи брутни доходи",
+        "touristNightsBIH": "Нощувки на туристи",
+        "numberOfCompaniesBIH": "Брой предприятия",
+        "employmentTopSectorsBIH": "Заетост – водещи сектори",
+        "touristLodgingFacilities": "Настанителни бази за туристи",
+        "additionalEconomyIndicators": "Допълнителни икономически показатели"
+      },
+      "mobilityTransport": {
+        "transportedGoodsLoaded": "Товари превозени по пътища, натоварени в региона (tt)",
+        "mostTransportedGoods": "Най-превозваните товари, натоварени в региона (tt)",
+        "transportedGoodsUnloaded": "Товари превозени по пътища, разтоварени в региона (tt)",
+        "electricPassengerCars": "Регистрирани електрически леки автомобили",
+        "transportedGoodsBreakdown": "Разбивка на натоварените превозени товари (tt)",
+        "railwayPassengerTransport": "Железопътен пътнически транспорт",
+        "transportedGoodsBIH": "Тон на превозените стоки (tt)",
+        "transportedGoodsIndexBIH": "Индекс на превозените стоки",
+        "additionalMobilityIndicators": "Допълнителни показатели за мобилност",
+        "keyPublicTransportIndicators": "Ключови показатели за обществения транспорт"
+      },
+      "governancePolicy": {
+        "employedPersonsTotal": "Брой наетите лица в хиляди",
+        "employmentRate": "Процент на заетост сред населението",
+        "rdExpenditure": "Разходи за НИР (милиони €)",
+        "keyGovernanceIndicators": "Ключови показатели за управление"
+      },
+      "environment": {
+        "heatingDegreeDays": "Годишни градус-дни на отопление",
+        "coolingDegreeDays": "Годишни градус-дни на охлаждане",
+        "landUseDistribution": "Разпределение на земеползването по категории (inha)",
+        "recyclingFacilitiesCount": "Брой съоръжения за рециклиране",
+        "energyRecovery": "Отвличане на енергия от отпадъци (т/година)",
+        "recyclingPlusFacilitiesCount": "Брой съоръжения за рециклиране и запълване",
+        "miningCoalLigniteIndex": "Индекс на добива на въглища и лигнит",
+        "utilityIndicators": "Показатели за комунални услуги",
+        "greenSpaceIndicators": "Показатели за зелени площи"
+      },
+      "services": {
+        "hospitalDischargesTotal": "Годишни изписвания от болница по брой пациенти",
+        "topHospitalDischargesByDiagnosis": "Топ изписвания от болница по диагноза (брой пациенти, последна година)",
+        "hospitalDischargesByAgeGroup": "Изписвания от болница по възрастова група",
+        "youthNeetByGenderYear": "Младежи NEET по пол и година",
+        "educationalAttainmentYouth": "Образователно ниво на младежи (15–24 г.)",
+        "tertiaryEnrollment": "Годишно записани в висше образование (последна година)",
+        "disposalCapacity": "Капацитет за изхвърляне на отпадъци на сметище (м³)",
+        "publicAndCommercial": "Обществени и търговски услуги",
+        "educationAndEmploymentInfra": "Инфраструктура за образование и заетост"
+      },
+      "analysis": {
+        "maxVillagesSelected": "Можете да изберете най-много {{count}} населени места",
+        "index": "Индекс",
+        "explanation": "Обяснение",
+        "closerToOne": "Стойност по-близка до 1,0 показва по-добро представяне по показателите.",
+        "selectLocations": "Изберете локации за сравнение:",
+        "smartnessIndex": {
+          "title": "Индекс за интелигентност на селата",
+          "description": "Комбиниран показател (0–1) за всички измерения."
+        },
+        "indicator": "Показател",
+        "indicators": {
+          "1_1_1": {
+            "name": "Дигитална свързаност",
+            "description": "Измерва наличието и качеството на цифровите мрежови връзки в селските общности."
+          },
+          "1_1_2": {
+            "name": "Традиционна свързаност",
+            "description": "Оценява традиционните, недигитални средства за свързаност (напр. пощенски услуги, телефония)."
+          },
+          "1_1_4": {
+            "name": "Достъпност на интернет",
+            "description": "Изследва икономическата достъпност на интернет услугите за жителите на селските райони."
+          },
+          "2_1_1": {
+            "name": "Достъпност на обществения транспорт",
+            "description": "Измерва достъпността и наличността на обществен транспорт."
+          },
+          "2_2_2": {
+            "name": "Нисковъглеродни превозни средства",
+            "description": "Оценява използването на превозни средства, задвижвани с нисковъглеродни или възобновяеми горива."
+          },
+          "3_2_1": {
+            "name": "Локално производство на енергия",
+            "description": "Измерва разпространението на местни енергийни източници, които повишават устойчивостта."
+          }
+        }
+      }
+    }
+  }
+}

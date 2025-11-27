@@ -1,0 +1,20 @@
+query FetchEmployeesNr($pilot_nuts3: String!) {
+  datapoints(
+    survey: "nama_10r_3empers"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts3
+      "Employed persons"
+      "Total - all NACE activities"
+    ]
+    limit: 1
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

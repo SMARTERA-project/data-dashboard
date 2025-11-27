@@ -1,0 +1,20 @@
+query FetchGovernmentOverInternet($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_GOV_I"
+    sortBy: ["year"]
+    sortOrder: "desc"
+    dimensions: [
+      $pilot_nuts2
+      "Internet use: interaction with public authorities (last 12 months) (until 2021)"
+      "Percentage of individuals"
+    ]
+    limit: 1
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

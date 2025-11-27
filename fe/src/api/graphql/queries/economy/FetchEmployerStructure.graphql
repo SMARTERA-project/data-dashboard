@@ -1,0 +1,15 @@
+query FetchEmployerStructure($pilot_nuts3: String!) {
+  datapoints(
+    survey: "bd_salge1_nace_r"
+    sortBy: "value"
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts3]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

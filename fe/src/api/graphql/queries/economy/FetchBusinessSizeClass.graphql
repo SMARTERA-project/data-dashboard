@@ -1,0 +1,24 @@
+query FetchBusinessSizeClass($pilot_nuts3: String!) {
+  datapoints(
+    survey: "bd_salge1_size_r"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts3
+      "Enterprises having at least one employee - number"
+    ]
+    exclude: [
+      "Employees in enterprises having at least one employee - number"
+      "Persons employed in enterprises having at least one employee - number"
+      "Total"
+    ]
+    limit: 2
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

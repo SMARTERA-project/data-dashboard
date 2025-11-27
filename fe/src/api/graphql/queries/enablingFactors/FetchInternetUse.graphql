@@ -1,0 +1,23 @@
+query FetchInternetUse($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_IUSE_I"
+    sortBy: ["year"]
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts2]
+    exclude: [
+      "Frequency of internet access: daily"
+      "Frequency of internet access: daily"
+      "Frequency of internet access: once a week (including every day)"
+      "Last internet use: in last 3 months"
+      "Last internet use: in the last 12 months"
+    ]
+    limit: 7
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,445 @@
+PILOT,TAG,COUNT
+P1,Restaurant,83
+P1,Hospital,2
+P1,School,12
+P1,Bank,14
+P1,Café,43
+P1,Pharmacy,11
+P1,Cinema,2
+P1,Parking,319
+P1,Fuel Station,12
+P1,Marketplace,0
+P1,Vending Machine,5
+P1,Commercial Building,4
+P1,Offshore Platform,0
+P1,Petroleum Well,0
+P1,Pipeline,9
+P1,Industrial Works,1
+P1,Company Office,3
+P1,Coworking Space,1
+P1,Shops,189
+P1,Alpine Hut,28
+P1,Tourist Attraction,11
+P1,Camp Pitch,0
+P1,Camp Site,5
+P1,Caravan Site,3
+P1,Chalet,0
+P1,Guest House,0
+P1,Hostel,0
+P1,Hotel,28
+P1,Tourist Info,425
+P1,Motel,0
+P1,Museum,0
+P1,Wilderness Hut,24
+P1,Townhall,14
+P1,Courthouse,0
+P1,Police,8
+P1,Fire Station,12
+P1,Government Building,0
+P1,Bump Gate,0
+P1,Bus Trap,0
+P1,Cycle Barrier,3
+P1,Motorcycle Barrier,0
+P1,Sump Buster,0
+P1,Train Station,6
+P1,Transport Building,0
+P1,Motorway,0
+P1,Public Transport,227
+P1,Railways,187
+P1,Routes,0
+P1,Recycling,38
+P1,Forest,0
+P1,Forest Compartment,0
+P1,Hazard Area,0
+P1,National Park,1
+P1,Protected Area,2
+P1,Garden,9
+P1,Nature Reserve,2
+P1,Park,13
+P1,Gasometer,0
+P1,Mineshaft,0
+P1,Wastewater Plant,0
+P1,Water Works,1
+P1,Grassland,0
+P1,River,4
+P1,College,0
+P1,Kindergarten,9
+P1,University,0
+P1,Education Office,0
+P1,Employment Office,0
+P1,Refugee Site,0
+P1,Internet Café,0
+P1,Public Bath,1
+P1,Water Point,0
+P1,Place of Worship,97
+P1,Public Toilets,21
+P2,Restaurant,77
+P2,Hospital,0
+P2,School,10
+P2,Bank,9
+P2,Café,49
+P2,Pharmacy,6
+P2,Cinema,0
+P2,Parking,76
+P2,Fuel Station,2
+P2,Marketplace,1
+P2,Vending Machine,7
+P2,Commercial Building,0
+P2,Offshore Platform,0
+P2,Petroleum Well,0
+P2,Pipeline,0
+P2,Industrial Works,0
+P2,Company Office,3
+P2,Coworking Space,0
+P2,Shops,134
+P2,Alpine Hut,1
+P2,Tourist Attraction,4
+P2,Camp Pitch,0
+P2,Camp Site,0
+P2,Caravan Site,1
+P2,Chalet,0
+P2,Guest House,0
+P2,Hostel,0
+P2,Hotel,39
+P2,Tourist Info,141
+P2,Motel,0
+P2,Museum,0
+P2,Wilderness Hut,1
+P2,Townhall,2
+P2,Courthouse,0
+P2,Police,2
+P2,Fire Station,1
+P2,Government Building,0
+P2,Bump Gate,0
+P2,Bus Trap,0
+P2,Cycle Barrier,0
+P2,Motorcycle Barrier,0
+P2,Sump Buster,0
+P2,Train Station,2
+P2,Transport Building,0
+P2,Motorway,0
+P2,Public Transport,40
+P2,Railways,205
+P2,Routes,0
+P2,Recycling,24
+P2,Forest,0
+P2,Forest Compartment,0
+P2,Hazard Area,0
+P2,National Park,0
+P2,Protected Area,0
+P2,Garden,9
+P2,Nature Reserve,1
+P2,Park,6
+P2,Gasometer,0
+P2,Mineshaft,0
+P2,Wastewater Plant,1
+P2,Water Works,1
+P2,Grassland,0
+P2,River,1
+P2,College,0
+P2,Kindergarten,3
+P2,University,0
+P2,Education Office,0
+P2,Employment Office,0
+P2,Refugee Site,0
+P2,Internet Café,0
+P2,Public Bath,0
+P2,Water Point,2
+P2,Place of Worship,14
+P2,Public Toilets,8
+P3,Restaurant,22
+P3,Hospital,2
+P3,School,25
+P3,Bank,7
+P3,Café,14
+P3,Pharmacy,4
+P3,Cinema,1
+P3,Parking,201
+P3,Fuel Station,13
+P3,Marketplace,1
+P3,Vending Machine,0
+P3,Commercial Building,7
+P3,Offshore Platform,0
+P3,Petroleum Well,0
+P3,Pipeline,2
+P3,Industrial Works,15
+P3,Company Office,1
+P3,Coworking Space,1
+P3,Shops,124
+P3,Alpine Hut,0
+P3,Tourist Attraction,2
+P3,Camp Pitch,0
+P3,Camp Site,3
+P3,Caravan Site,0
+P3,Chalet,0
+P3,Guest House,0
+P3,Hostel,0
+P3,Hotel,1
+P3,Tourist Info,32
+P3,Motel,0
+P3,Museum,0
+P3,Wilderness Hut,4
+P3,Townhall,3
+P3,Courthouse,0
+P3,Police,1
+P3,Fire Station,2
+P3,Government Building,0
+P3,Bump Gate,0
+P3,Bus Trap,0
+P3,Cycle Barrier,0
+P3,Motorcycle Barrier,0
+P3,Sump Buster,0
+P3,Train Station,1
+P3,Transport Building,0
+P3,Motorway,0
+P3,Public Transport,534
+P3,Railways,81
+P3,Routes,0
+P3,Recycling,14
+P3,Forest,0
+P3,Forest Compartment,0
+P3,Hazard Area,0
+P3,National Park,0
+P3,Protected Area,3
+P3,Garden,0
+P3,Nature Reserve,9
+P3,Park,65
+P3,Gasometer,0
+P3,Mineshaft,0
+P3,Wastewater Plant,5
+P3,Water Works,0
+P3,Grassland,0
+P3,River,33
+P3,College,0
+P3,Kindergarten,9
+P3,University,0
+P3,Education Office,0
+P3,Employment Office,0
+P3,Refugee Site,0
+P3,Internet Café,0
+P3,Public Bath,0
+P3,Water Point,0
+P3,Place of Worship,20
+P3,Public Toilets,10
+P4,Restaurant,7
+P4,Hospital,2
+P4,School,9
+P4,Bank,3
+P4,Café,4
+P4,Pharmacy,1
+P4,Cinema,0
+P4,Parking,20
+P4,Fuel Station,6
+P4,Marketplace,1
+P4,Vending Machine,0
+P4,Commercial Building,0
+P4,Offshore Platform,0
+P4,Petroleum Well,0
+P4,Pipeline,0
+P4,Industrial Works,0
+P4,Company Office,0
+P4,Coworking Space,0
+P4,Shops,28
+P4,Alpine Hut,0
+P4,Tourist Attraction,1
+P4,Camp Pitch,0
+P4,Camp Site,0
+P4,Caravan Site,0
+P4,Chalet,0
+P4,Guest House,0
+P4,Hostel,0
+P4,Hotel,0
+P4,Tourist Info,1
+P4,Motel,1
+P4,Museum,0
+P4,Wilderness Hut,1
+P4,Townhall,3
+P4,Courthouse,0
+P4,Police,1
+P4,Fire Station,1
+P4,Government Building,0
+P4,Bump Gate,0
+P4,Bus Trap,0
+P4,Cycle Barrier,0
+P4,Motorcycle Barrier,0
+P4,Sump Buster,0
+P4,Train Station,1
+P4,Transport Building,0
+P4,Motorway,0
+P4,Public Transport,5
+P4,Railways,7
+P4,Routes,0
+P4,Recycling,0
+P4,Forest,0
+P4,Forest Compartment,0
+P4,Hazard Area,0
+P4,National Park,0
+P4,Protected Area,0
+P4,Garden,0
+P4,Nature Reserve,0
+P4,Park,4
+P4,Gasometer,0
+P4,Mineshaft,0
+P4,Wastewater Plant,0
+P4,Water Works,0
+P4,Grassland,0
+P4,River,0
+P4,College,0
+P4,Kindergarten,2
+P4,University,0
+P4,Education Office,0
+P4,Employment Office,0
+P4,Refugee Site,0
+P4,Internet Café,0
+P4,Public Bath,0
+P4,Water Point,1
+P4,Place of Worship,28
+P4,Public Toilets,0
+P5,Restaurant,3
+P5,Hospital,0
+P5,School,0
+P5,Bank,0
+P5,Café,0
+P5,Pharmacy,0
+P5,Cinema,0
+P5,Parking,6
+P5,Fuel Station,0
+P5,Marketplace,0
+P5,Vending Machine,0
+P5,Commercial Building,0
+P5,Offshore Platform,0
+P5,Petroleum Well,0
+P5,Pipeline,0
+P5,Industrial Works,0
+P5,Company Office,0
+P5,Coworking Space,0
+P5,Shops,4
+P5,Alpine Hut,0
+P5,Tourist Attraction,0
+P5,Camp Pitch,0
+P5,Camp Site,0
+P5,Caravan Site,0
+P5,Chalet,0
+P5,Guest House,0
+P5,Hostel,0
+P5,Hotel,0
+P5,Tourist Info,1
+P5,Motel,0
+P5,Museum,0
+P5,Wilderness Hut,0
+P5,Townhall,0
+P5,Courthouse,0
+P5,Police,0
+P5,Fire Station,0
+P5,Government Building,0
+P5,Bump Gate,0
+P5,Bus Trap,0
+P5,Cycle Barrier,0
+P5,Motorcycle Barrier,0
+P5,Sump Buster,0
+P5,Train Station,0
+P5,Transport Building,0
+P5,Motorway,0
+P5,Public Transport,6
+P5,Railways,0
+P5,Routes,0
+P5,Recycling,0
+P5,Forest,0
+P5,Forest Compartment,0
+P5,Hazard Area,0
+P5,National Park,0
+P5,Protected Area,0
+P5,Garden,0
+P5,Nature Reserve,0
+P5,Park,1
+P5,Gasometer,0
+P5,Mineshaft,0
+P5,Wastewater Plant,0
+P5,Water Works,0
+P5,Grassland,0
+P5,River,0
+P5,College,0
+P5,Kindergarten,0
+P5,University,0
+P5,Education Office,0
+P5,Employment Office,0
+P5,Refugee Site,0
+P5,Internet Café,0
+P5,Public Bath,0
+P5,Water Point,1
+P5,Place of Worship,7
+P5,Public Toilets,0
+P6,Restaurant,0
+P6,Hospital,0
+P6,School,0
+P6,Bank,0
+P6,Café,0
+P6,Pharmacy,0
+P6,Cinema,0
+P6,Parking,0
+P6,Fuel Station,0
+P6,Marketplace,0
+P6,Vending Machine,0
+P6,Commercial Building,0
+P6,Offshore Platform,0
+P6,Petroleum Well,0
+P6,Pipeline,0
+P6,Industrial Works,0
+P6,Company Office,0
+P6,Coworking Space,0
+P6,Shops,0
+P6,Alpine Hut,0
+P6,Tourist Attraction,0
+P6,Camp Pitch,0
+P6,Camp Site,0
+P6,Caravan Site,0
+P6,Chalet,0
+P6,Guest House,0
+P6,Hostel,0
+P6,Hotel,0
+P6,Tourist Info,0
+P6,Motel,0
+P6,Museum,0
+P6,Wilderness Hut,0
+P6,Townhall,0
+P6,Courthouse,0
+P6,Police,0
+P6,Fire Station,0
+P6,Government Building,0
+P6,Bump Gate,0
+P6,Bus Trap,0
+P6,Cycle Barrier,0
+P6,Motorcycle Barrier,0
+P6,Sump Buster,0
+P6,Train Station,0
+P6,Transport Building,0
+P6,Motorway,0
+P6,Public Transport,0
+P6,Railways,0
+P6,Routes,0
+P6,Recycling,0
+P6,Forest,0
+P6,Forest Compartment,0
+P6,Hazard Area,0
+P6,National Park,0
+P6,Protected Area,0
+P6,Garden,0
+P6,Nature Reserve,0
+P6,Park,0
+P6,Gasometer,0
+P6,Mineshaft,0
+P6,Wastewater Plant,0
+P6,Water Works,0
+P6,Grassland,0
+P6,River,0
+P6,College,0
+P6,Kindergarten,0
+P6,University,0
+P6,Education Office,0
+P6,Employment Office,0
+P6,Refugee Site,0
+P6,Internet Café,0
+P6,Public Bath,0
+P6,Water Point,0
+P6,Place of Worship,0
+P6,Public Toilets,0

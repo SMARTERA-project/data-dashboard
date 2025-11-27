@@ -1,0 +1,16 @@
+query FetchDeathsLastYear($pilot_nuts3: String!) {
+  datapoints(
+    survey: "demo_r_gind3"
+    sortBy: "year"
+    sortOrder: "desc"
+    limit: 1
+    dimensions: [$pilot_nuts3, "Deaths - total"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,15 @@
+query FetchPopulationDensity($pilot_nuts3: String!) {
+  datapoints(
+    survey: "demo_r_d3dens"
+    sortBy: "year"
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts3]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

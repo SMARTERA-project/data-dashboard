@@ -1,0 +1,17 @@
+query FetchInternetEnterprises($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_CI_IT_EN2"
+    sortBy: ["year", "value"]
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts2, "10 persons employed or more"]
+    filterBy: 4
+    filter: ["Percentage of enterprises"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

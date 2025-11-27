@@ -1,0 +1,24 @@
+query FetchAllDemographicData($pilot_nuts3: String!) {
+  datapoints(
+    survey: "cens_21cobhs_r3"
+    sortBy: "value"
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts3]
+    filterBy: 3
+    filter: ["Total"]
+    exclude: [
+      "Males"
+      "Females"
+      "Foreign country"
+      "Non-EU countries (aggregate changing according to the context)"
+      "100 years or over"
+    ]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

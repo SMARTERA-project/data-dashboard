@@ -1,0 +1,17 @@
+query FetchPatentApplication($pilot_nuts1: String!) {
+  datapoints(
+    survey: "pat_ep_tot"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: ["Applicant", "Per million inhabitants"]
+    filterBy: 3
+    filter: [$pilot_nuts1]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

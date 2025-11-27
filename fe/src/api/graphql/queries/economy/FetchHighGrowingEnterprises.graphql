@@ -1,0 +1,19 @@
+query FetchHighGrowingEnterprises($pilot_nuts3: String!) {
+  datapoints(
+    survey: "bd_hgnace_r"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts3
+      "High-growth enterprises measured in employment - number"
+    ]
+    limit: 6
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

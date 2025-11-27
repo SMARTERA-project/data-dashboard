@@ -1,0 +1,16 @@
+query FetchTransportedGoodsIndexBIH {
+  datapoints(
+    survey: "STS_04.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["asc"]
+    dimensions: ["Gross Index", "Total transportation and storage"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

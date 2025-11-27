@@ -1,0 +1,23 @@
+query FetchAllHospitalisations($pilot_nuts2: String!) {
+  datapoints(
+    survey: "HLTH_CO_DISCH1T"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts2
+      "in-patients (total number)"
+      "Number"
+      "Total"
+      "All causes of diseases (A00-Z99) excluding V00-Y98"
+    ]
+    filterBy: 1
+    filter: ["Total"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,41 @@
+query FetchHospitalisationAges($pilot_nuts2: String!) {
+  datapoints(
+    survey: "HLTH_CO_DISCH1T"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts2
+      "All causes of diseases (A00-Z99) excluding V00-Y98 and Z38"
+    ]
+    filterBy: 1
+    filter: [
+      "Less than 1 year"
+      "From 1 to 4 years"
+      "From 5 to 9 years"
+      "From 10 to 14 years"
+      "From 15 to 19 years"
+      "From 20 to 24 years"
+      "From 25 to 29 years"
+      "From 30 to 34 years"
+      "From 35 to 39 years"
+      "From 40 to 44 years"
+      "From 45 to 49 years"
+      "From 50 to 54 years"
+      "From 55 to 59 years"
+      "From 60 to 64 years"
+      "From 65 to 69 years"
+      "From 70 to 74 years"
+      "From 75 to 79 years"
+      "From 80 to 84 years"
+      "From 85 to 89 years"
+    ]
+    limit: 19
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,16 @@
+query FetchLandUse($pilot_nuts2: String!) {
+  datapoints(
+    survey: "EF_LUS_ALLCROPS"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts2, "Hectare", "Total"]
+    limit: 4
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

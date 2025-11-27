@@ -1,0 +1,352 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "dashboard": "Panel de control",
+    "analysis": "Análisis",
+    "help": "Ayuda"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "backButton": "Volver al inicio"
+  },
+  "help": {
+    "title": "Ayuda y guía",
+    "sections": {
+      "dataTitle": "Trabajo con los indicadores",
+      "dataText": "Los indicadores se calculan para áreas rurales seleccionadas y están vinculados a las regiones NUTS 2 y NUTS 3. Usa las páginas del panel y el análisis para explorar valores, comparar ubicaciones y leer explicaciones detalladas de cada indicador.",
+      "mapTitle": "Comprender los mapas NUTS",
+      "mapText": "El mapa de la derecha muestra los límites de las regiones NUTS 2 y NUTS 3 y destaca las regiones utilizadas en el proyecto. Puedes cambiar entre niveles para ver cómo se relacionan las áreas piloto locales con las regiones estadísticas más amplias."
+    },
+    "buttons": {
+      "backHome": "Volver al inicio",
+      "contact": "Contactar soporte"
+    },
+    "map": {
+      "nuts2": "NUTS 2",
+      "nuts3": "NUTS 3",
+      "alt": "Mapa de las regiones {{level}} utilizadas en el proyecto",
+      "caption": "Fuente: clasificación NUTS oficial (Eurostat).",
+      "levelToggleAria": "Seleccionar nivel del mapa NUTS"
+    }
+  },
+  "footer": {
+    "euLogoText1": "Cofinanciado por",
+    "euLogoText2": "la Unión Europea"
+  },
+  "drawer": {
+    "title": "Regiones",
+    "search": "Buscar región"
+  },
+  "searchfilter": {
+    "searchfordata": "Búsqueda de datos",
+    "suggestedsearch": "Búsqueda sugerida",
+    "areaLevel": "Nivel de área",
+    "showingdatafor": "Mostrando datos para",
+    "area": "Área",
+    "search": "Búsqueda por título",
+    "hint": {
+      "country": "Nivel de país",
+      "nuts1": "Nivel NUTS 1",
+      "nuts2": "Nivel NUTS 2",
+      "nuts3": "Nivel NUTS 3",
+      "pilotRegion": "Nivel de región piloto"
+    }
+  },
+  "homepage": {
+    "title": "SMART ERA",
+    "description": "Este proyecto de la UE aprovecha la era digital y las estrategias inteligentes para insuflar nueva vida a estas regiones, convirtiendo los desafíos en oportunidades. Desde revitalizar infraestructuras hasta fomentar el emprendimiento, estamos creando soluciones prácticas que marcan una verdadera diferencia. Con cada paso, estamos construyendo un futuro en el que las zonas rurales atraigan talento e inversión, y sienten las bases para un crecimiento sostenible."
+  },
+  "OSM": {
+    "coworkingSpace": "Espacio de coworking",
+    "companyOffice": "Oficina de la empresa"
+  },
+  "OSM_governance": {
+    "townhall": "Ayuntamiento",
+    "courthouse": "Juzgado",
+    "governmentBuilding": "Edificio gubernamental",
+    "police": "Policía",
+    "fireStation": "Estación de bomberos"
+  },
+  "OSM_mobility": {
+    "parking": "Aparcamiento",
+    "fuelStation": "Gasolinera",
+    "cycleBarrier": "Barrera ciclista",
+    "motorcycleBarrier": "Barrera para motocicletas",
+    "motorway": "Autopista",
+    "trainStation": "Estación de tren",
+    "publicTransport": "Transporte público",
+    "railways": "Ferrocarriles"
+  },
+  "OSM_economy": {
+    "alpineHut": "Refugio alpino",
+    "campPitch": "Parcela de camping",
+    "campSite": "Camping",
+    "caravanSite": "Área para caravanas",
+    "chalet": "Chalet",
+    "guestHouse": "Casa de huéspedes",
+    "hostel": "Hostal",
+    "hotel": "Hotel",
+    "motel": "Motel",
+    "restaurant": "Restaurante",
+    "cinema": "Cine",
+    "vendingMachine": "Máquina expendedora",
+    "pipeline": "Tubería / oleoducto",
+    "industrialWorks": "Instalación industrial",
+    "touristAttraction": "Atracción turística",
+    "touristInfo": "Información turística",
+    "museum": "Museo"
+  },
+  "OSM_environment": {
+    "forest": "Bosque",
+    "river": "Río",
+    "garden": "Jardín",
+    "park": "Parque",
+    "nationalPark": "Parque nacional",
+    "protectedArea": "Área protegida",
+    "natureReserve": "Reserva natural"
+  },
+  "OSM_environmentAdditional": {
+    "waterPoint": "Punto de agua",
+    "recycling": "Reciclaje",
+    "wastewaterPlant": "Planta de aguas residuales"
+  },
+  "OSM_service": {
+    "hospital": "Hospital",
+    "bank": "Banco",
+    "cafe": "Cafetería",
+    "pharmacy": "Farmacia",
+    "cinema": "Cine",
+    "marketplace": "Mercado",
+    "shops": "Tiendas",
+    "museum": "Museo"
+  },
+  "OSM_serviceEducation": {
+    "kindergarten": "Guardería",
+    "school": "Escuela",
+    "college": "Colegio / Instituto",
+    "university": "Universidad",
+    "educationOffice": "Oficina de educación",
+    "employmentOffice": "Oficina de empleo"
+  },
+  "Want to learn more?": "¿Quieres saber más?",
+  "Access the comprehensive PDF reports below.": "Accede a los informes PDF completos a continuación.",
+  "Download PDF": "Descargar PDF",
+  "Open report": "Abrir informe",
+  "dashboard": {
+    "tabs": {
+      "general": "General",
+      "enablingFactors": "Factores habilitantes",
+      "mobilityTransport": "Movilidad y transporte",
+      "governancePolicy": "Gobernanza y política",
+      "economy": "Economía",
+      "environment": "Medio ambiente",
+      "services": "Servicios"
+    },
+    "pilot": {
+      "smarje-padna": {
+        "title": "Šmarje–Padna",
+        "country": "Eslovenia",
+        "nuts1": "Eslovenia",
+        "nuts2": "Eslovenia Occidental",
+        "nuts3": "Costa–Karst"
+      },
+      "devetaki-plateau": {
+        "title": "Meseta de Devetaki",
+        "country": "Bulgaria",
+        "nuts1": "Bulgaria del Norte y Sudeste",
+        "nuts2": "Noroeste",
+        "nuts3": "Lovech"
+      },
+      "northern-ostrobothnia": {
+        "title": "Ostrobotnia del Norte",
+        "country": "Finlandia",
+        "nuts1": "Finlandia Continental",
+        "nuts2": "Finlandia del Norte y Este",
+        "nuts3": "Ostrobotnia del Norte"
+      },
+      "valle-di-sole": {
+        "title": "Valle di Sole",
+        "country": "Italia",
+        "nuts1": "Noreste",
+        "nuts2": "Provincia Autónoma de Trento",
+        "nuts3": "Provincia Autónoma de Trento"
+      },
+      "east-herzegovina": {
+        "title": "Este de Herzegovina",
+        "country": "Bosnia y Herzegovina",
+        "nuts1": "Bosnia y Herzegovina"
+      },
+      "tramuntana-soller": {
+        "title": "Tramuntana/Sóller",
+        "country": "España",
+        "nuts1": "Este",
+        "nuts2": "Islas Baleares",
+        "nuts3": "Mallorca"
+      }
+    },
+    "maps": {
+      "general": {
+        "populationDensity": "Densidad de población"
+      },
+      "enablingFactors": {
+        "mobileCoverage": "Cobertura de la red móvil por tecnología",
+        "gsmCoverage": "Cobertura 2G",
+        "coverage3g": "Cobertura 3G",
+        "coverage4g": "Cobertura 4G",
+        "cellTowerDensity": "Densidad de torres de telefonía",
+        "numberOfCellTowers": "Número de torres de telefonía"
+      },
+      "mobilityTransport": {
+        "dailyBusStopFrequency": "Frecuencia diaria en paradas de autobús",
+        "busStopDensity": "Densidad de paradas de autobús",
+        "numberOfBusStops": "Número de paradas de autobús",
+        "cyclingWalkingInfrastructure": "Infraestructura para ciclismo y peatones",
+        "allCyclingAccessiblePathLength": "Longitud de todas las vías accesibles para bicicletas",
+        "designatedWalkingCyclingPathLength": "Longitud de las vías peatonales y ciclistas designadas",
+        "residentialWalkingCyclingPathLength": "Longitud de las vías peatonales y ciclistas residenciales",
+        "summedWalkingCyclingPathLength": "Longitud total de las vías"
+      },
+      "services": {
+        "postalServiceDensity": "Densidad del servicio postal",
+        "postOfficeDensity": "Densidad de oficinas postales",
+        "numberOfPostOffices": "Número de oficinas postales",
+        "postBoxDensity": "Densidad de buzones postales",
+        "numberOfPostBoxes": "Número de buzones postales",
+        "carAccessibility": "Accesibilidad en coche",
+        "carAccessibilityPost": "Accesibilidad en coche a los servicios postales",
+        "carAccessibilityEvCharger": "Accesibilidad en coche a los puntos de recarga para coches eléctricos",
+        "carAccessibilityGroceryStore": "Accesibilidad en coche a las tiendas de comestibles",
+        "carAccessibilityLibrary": "Accesibilidad en coche a las bibliotecas"
+      },
+      "helpers": {
+        "available": "Disponible",
+        "notAvailable": "No disponible"
+      }
+    },
+    "charts": {
+      "general": {
+        "leadingCitizenships": "Principales ciudadanías de los residentes",
+        "totalPopulationChange": "Cambio total de la población a lo largo del tiempo",
+        "yearlyLiveBirths": "Nacimientos vivos anuales (últimos datos anuales)",
+        "yearlyDeaths": "Defunciones anuales (últimos datos anuales)",
+        "netMigrations": "Migraciones netas (ajustadas) a lo largo del tiempo",
+        "populationBySex": "Población por sexo",
+        "populationByAgeAndSex": "Población por grupo de edad y sexo",
+        "populationByMaritalStatus": "Población por estado civil",
+        "populationByHouseholdTypeAgeSex": "Población por tipo de hogar, grupo de edad y sexo (Censo ",
+        "populationDensity": "Densidad de población (personas por km²)",
+        "maritalStatusDistribution": "Distribución por estado civil"
+      },
+      "enablingFactors": {
+        "internetUseFrequency": "Frecuencia de uso de Internet por individuos (en %)",
+        "householdsWithInternetAccess": "Porcentaje de hogares con acceso a Internet",
+        "internetUseActivities": "Actividades de uso de Internet por individuos (en %)",
+        "buyingOnlineLast3Months": "% Compras en línea (últimos 3 meses)",
+        "buyingOnlineLast3MonthsOverTime": "% Compras en línea (últimos 3 meses) a lo largo del tiempo",
+        "onlineInteractionWithAuthorities": "% Interacción en línea con autoridades (último año)",
+        "internetAccessSpeedEnterprises": "Velocidad de acceso a Internet en las empresas",
+        "enablingInfrastructure": "Infraestructura habilitadora"
+      },
+      "economy": {
+        "gvaByCurrency": "Valor añadido bruto por moneda",
+        "nominalLabourProductivity": "Productividad laboral nominal en € por persona",
+        "gdpLastYear": "PIB en el último año informado",
+        "employedPersonsNACE": "Personas empleadas (NACE)",
+        "topEmploymentCategories": "Principales categorías de empleo",
+        "gdpPerInhabitant": "PIB per cápita en millones de €",
+        "employmentByBusinessSector": "Empleo por sector económico",
+        "enterpriseSizeClass": "Clase de tamaño de empresa (industria, construcción y servicios de mercado)",
+        "patentApplicationsPerMillion": "Solicitudes de patentes por millón de habitantes",
+        "highGrowthEnterprises": "Número de Empresas de Alto Crecimiento (HGE) por empleo – sectores principales (último año)",
+        "bihActivitiesIndex": "Índice de actividades",
+        "totalServicesIndex": "Índice total de servicios",
+        "totalNetEarningsBIH": "Remuneraciones netas totales",
+        "totalGrossEarningsBIH": "Remuneraciones brutas totales",
+        "touristNightsBIH": "Pernoctaciones turísticas",
+        "numberOfCompaniesBIH": "Número de empresas",
+        "employmentTopSectorsBIH": "Empleo — sectores líderes",
+        "touristLodgingFacilities": "Establecimientos de alojamiento turístico",
+        "additionalEconomyIndicators": "Indicadores económicos adicionales"
+      },
+      "mobilityTransport": {
+        "transportedGoodsLoaded": "Bienes transportados por carretera, cargados en la región (tt)",
+        "mostTransportedGoods": "Bienes más transportados, cargados en la región (tt)",
+        "transportedGoodsUnloaded": "Bienes transportados por carretera, descargados en la región (tt)",
+        "electricPassengerCars": "Automóviles de pasajeros eléctricos registrados",
+        "transportedGoodsBreakdown": "Desglose de bienes transportados cargados (tt)",
+        "railwayPassengerTransport": "Transporte de pasajeros por ferrocarril",
+        "transportedGoodsBIH": "Toneladas de mercancías transportadas (tt)",
+        "transportedGoodsIndexBIH": "Índice de mercancías transportadas",
+        "additionalMobilityIndicators": "Indicadores adicionales de movilidad",
+        "keyPublicTransportIndicators": "Indicadores clave de transporte público"
+      },
+      "governancePolicy": {
+        "employedPersonsTotal": "Número de personas empleadas en miles",
+        "employmentRate": "Porcentaje de población empleada",
+        "rdExpenditure": "Gasto en I+D (millones de €)",
+        "keyGovernanceIndicators": "Indicadores clave de gobernanza"
+      },
+      "environment": {
+        "heatingDegreeDays": "Días grado de calefacción anuales",
+        "coolingDegreeDays": "Días grado de refrigeración anuales",
+        "landUseDistribution": "Distribución del uso del suelo por categoría (inha)",
+        "recyclingFacilitiesCount": "Número de instalaciones de reciclaje",
+        "energyRecovery": "Recuperación de energía de residuos (t/año)",
+        "recyclingPlusFacilitiesCount": "Número de instalaciones de reciclaje y relleno",
+        "miningCoalLigniteIndex": "Índice de minería de carbón y lignito",
+        "utilityIndicators": "Indicadores de servicios públicos",
+        "greenSpaceIndicators": "Indicadores de zonas verdes"
+      },
+      "services": {
+        "hospitalDischargesTotal": "Altas hospitalarias anuales por número de pacientes",
+        "topHospitalDischargesByDiagnosis": "Principales altas hospitalarias por diagnóstico (número de pacientes, último año)",
+        "hospitalDischargesByAgeGroup": "Altas hospitalarias por grupo de edad",
+        "youthNeetByGenderYear": "Jóvenes NEET por sexo y año",
+        "educationalAttainmentYouth": "Logro educativo de jóvenes de 15 a 24 años",
+        "tertiaryEnrollment": "Estudiantes inscritos anualmente en educación terciaria (último año)",
+        "disposalCapacity": "Capacidad de eliminación de residuos en vertederos (m³)",
+        "publicAndCommercial": "Servicios públicos y comerciales",
+        "educationAndEmploymentInfra": "Infraestructura de educación y empleo"
+      },
+      "analysis": {
+        "maxVillagesSelected": "Se pueden seleccionar como máximo {{count}} aldeas",
+        "index": "Índice",
+        "explanation": "Explicación",
+        "closerToOne": "Un valor más cercano a 1,0 refleja un mejor rendimiento en todos los indicadores.",
+        "selectLocations": "Selecciona las localidades para comparar:",
+        "smartnessIndex": {
+          "title": "Índice de Inteligencia del Pueblo",
+          "description": "Puntuación compuesta (0–1) en todas las dimensiones."
+        },
+        "indicator": "Indicador",
+        "indicators": {
+          "1_1_1": {
+            "name": "Conectividad digital",
+            "description": "Mide la disponibilidad y calidad de las conexiones digitales en comunidades rurales."
+          },
+          "1_1_2": {
+            "name": "Conectividad tradicional",
+            "description": "Evalúa los medios tradicionales no digitales de conexión (por ejemplo, correo postal, telefonía)."
+          },
+          "1_1_4": {
+            "name": "Asequibilidad de Internet",
+            "description": "Examina la accesibilidad económica de los servicios de Internet."
+          },
+          "2_1_1": {
+            "name": "Accesibilidad al transporte público",
+            "description": "Mide la disponibilidad y facilidad de acceso al transporte público."
+          },
+          "2_2_2": {
+            "name": "Vehículos de bajas emisiones",
+            "description": "Evalúa la adopción de vehículos impulsados por combustibles de bajas emisiones o renovables."
+          },
+          "3_2_1": {
+            "name": "Generación de energía local",
+            "description": "Mide la presencia de instalaciones locales de generación energética."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+query FetchCompaniesBIH {
+  datapoints(
+    survey: "SBS_01.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["desc"]
+    dimensions: [
+      "Number of enterprises and entrepreneurs"
+      "TOTAL OF COVERED ACTIVITIES"
+    ]
+    limit: 5
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

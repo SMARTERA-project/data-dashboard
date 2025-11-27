@@ -1,0 +1,10 @@
+export { default as FetchAllDemographicData } from '@api/graphql/queries/general/FetchAllDemographicData.graphql';
+export { default as FetchDeathsLastYear } from '@api/graphql/queries/general/FetchDeathsLastYear.graphql';
+export { default as FetchLiveBirthsLastYear } from '@api/graphql/queries/general/FetchLiveBirthsLastYear.graphql';
+export { default as FetchNetMigrations } from '@api/graphql/queries/general/FetchNetMigrations.graphql';
+export { default as FetchPopulationByCitizenshipCountry } from '@api/graphql/queries/general/FetchPopulationByCitizenshipCountry.graphql';
+export { default as FetchPopulationByMaritalStatus } from '@api/graphql/queries/general/FetchPopulationByMaritalStatus.graphql';
+export { default as FetchPopulationBySexAge } from '@api/graphql/queries/general/FetchPopulationBySexAge.graphql';
+export { default as FetchPopulationBySexTotal } from '@api/graphql/queries/general/FetchPopulationBySexTotal.graphql';
+export { default as FetchPopulationDensity } from '@api/graphql/queries/general/FetchPopulationDensity.graphql';
+export { default as FetchTotalPopulationChange } from '@api/graphql/queries/general/FetchTotalPopulationChange.graphql';

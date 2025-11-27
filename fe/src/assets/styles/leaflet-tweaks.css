@@ -1,0 +1,22 @@
+.leaflet-container .leaflet-interactive {
+  cursor: default !important;
+}
+.leaflet-interactive:focus {
+  outline: none !important;
+  stroke: none !important;
+}
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+  display: none !important;
+}
+.leaflet-tooltip {
+  padding: 0 !important;
+}
+.leaflet-tooltip hr {
+  margin: 0 !important;
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}

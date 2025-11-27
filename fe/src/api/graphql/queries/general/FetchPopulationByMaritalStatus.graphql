@@ -1,0 +1,18 @@
+query FetchPopulationByMaritalStatus($pilot_nuts3: String!) {
+  datapoints(
+    survey: "cens_21m_r3"
+    sortBy: "value"
+    sortOrder: "asc"
+    dimensions: [$pilot_nuts3]
+    exclude: ["Males", "Females"]
+    filterBy: 2
+    filter: ["Total"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

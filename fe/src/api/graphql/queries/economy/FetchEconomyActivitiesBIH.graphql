@@ -1,0 +1,18 @@
+query FetchEconomyActivitiesBIH {
+  datapoints(
+    survey: "STS_05.xlsx"
+    region: "bih"
+    sortBy: ["value"]
+    sortOrder: ["desc"]
+    dimensions: ["2025-2Q", "Gross Index"]
+    exclude: ["Total services"]
+    limit: 10
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

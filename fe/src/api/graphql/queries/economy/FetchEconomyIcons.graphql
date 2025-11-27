@@ -1,0 +1,56 @@
+query FetchEconomyIcons($pilot: String!) {
+  marketplace: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Marketplace"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  vending_machine: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Vending Machine"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  commercial_building: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Commercial Building"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  industrial_works: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Industrial Works"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  shops: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Shops"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  employment_office: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Employment Office"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

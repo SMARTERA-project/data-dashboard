@@ -1,0 +1,90 @@
+query FetchEnvironmentIcons($pilot: String!) {
+  townhall: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Townhall"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  courthouse: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Courthouse"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  government_building: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Government Building"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  police: datapoints(source: "OSM", region: $pilot, dimensions: ["Police"]) {
+    region
+    dimensions
+    value
+  }
+  fire_station: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Fire Station"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  forest: datapoints(source: "OSM", region: $pilot, dimensions: ["Forest"]) {
+    region
+    dimensions
+    value
+  }
+  river: datapoints(source: "OSM", region: $pilot, dimensions: ["River"]) {
+    region
+    dimensions
+    value
+  }
+  garden: datapoints(source: "OSM", region: $pilot, dimensions: ["Garden"]) {
+    region
+    dimensions
+    value
+  }
+  park: datapoints(source: "OSM", region: $pilot, dimensions: ["Park"]) {
+    region
+    dimensions
+    value
+  }
+  national_park: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["National Park"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  protected_area: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Protected Area"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  nature_reserve: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Nature Reserve"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

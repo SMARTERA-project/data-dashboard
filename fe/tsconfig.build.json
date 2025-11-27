@@ -1,0 +1,86 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", // or ./build, or anything not in source tree
+        "noEmit": false,
+        // Base options
+        "strict": false,
+        // Individual strict options (optional, but good for fine-tuning)
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "strictFunctionTypes": false,
+        // Allow JS-like behavior
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        // Use modern features
+        "lib": [
+            "dom",
+            "es2022"
+        ],
+        "target": "es2022",
+        // Build and tooling
+        "forceConsistentCasingInFileNames": false,
+        "resolveJsonModule": true,
+        "moduleResolution": "bundler",
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "module": "esnext",
+        "baseUrl": ".",
+        "paths": {
+            "@api/*": [
+                "src/api/*"
+            ],
+            "@images/*": [
+                "src/assets/images/*"
+            ],
+            "@styles/*": [
+                "src/assets/styles/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@contexts/*": [
+                "src/contexts/*"
+            ],
+            "@hooks/*": [
+                "src/hooks/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@tabs/*": [
+                "src/tabs/*"
+            ],
+            "@layouts/*": [
+                "src/layouts/*"
+            ],
+            "@translations/*": [
+                "src/translations/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ],
+            "@locales/*": [
+                "src/translations/locales/*"
+            ],
+            "@data/*": [
+                "src/data/*"
+            ],
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*",
+        "./vite.config.ts",
+        "./eslint.config.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.test.ts",
+        "**/*.spec.tsx",
+        "**/*.test.tsx"
+    ],
+}

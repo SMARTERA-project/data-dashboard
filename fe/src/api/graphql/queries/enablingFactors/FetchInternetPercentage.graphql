@@ -1,0 +1,15 @@
+query FetchInternetPercentage($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_IACC_H"
+    sortBy: "value"
+    sortOrder: "asc"
+    dimensions: $pilot_nuts2
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

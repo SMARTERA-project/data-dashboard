@@ -1,0 +1,18 @@
+query FetchEmploymentBIH {
+  datapoints(
+    survey: "SBS_01.xlsx"
+    region: "bih"
+    sortBy: ["value"]
+    sortOrder: ["desc"]
+    dimensions: ["Number of persons employed", "2023"]
+    exclude: ["TOTAL OF COVERED ACTIVITIES"]
+    limit: 12
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

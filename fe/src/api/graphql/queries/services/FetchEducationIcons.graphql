@@ -1,0 +1,48 @@
+query FetchEducationIcons($pilot: String!) {
+  kindergarten: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Kindergarten"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  school: datapoints(source: "OSM", region: $pilot, dimensions: ["School"]) {
+    region
+    dimensions
+    value
+  }
+  college: datapoints(source: "OSM", region: $pilot, dimensions: ["College"]) {
+    region
+    dimensions
+    value
+  }
+  university: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["University"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  education_office: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Education Office"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  employment_office: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Employment Office"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

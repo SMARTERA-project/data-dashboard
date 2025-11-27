@@ -1,0 +1,15 @@
+query FetchImportedGoods($pilot_nuts3: String!) {
+  datapoints(
+    survey: "ROAD_GO_NA_RU3G"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts3, "Total transported goods"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}
