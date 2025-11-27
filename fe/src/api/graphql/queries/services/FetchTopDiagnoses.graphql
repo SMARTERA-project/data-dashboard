@@ -1,0 +1,23 @@
+query FetchTopDiagnoses($pilot_nuts2: String!) {
+  datapoints(
+    survey: "HLTH_CO_DISCH1T"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts2, "in-patients (total number)", "Number", "Total"]
+    filterBy: 1
+    filter: ["Total"]
+    exclude: [
+      "All causes of diseases (A00-Z99) excluding V00-Y98"
+      "All causes of diseases (A00-Z99) excluding V00-Y98 and Z38"
+      "Other factors influencing health status and contact with health services (remainder of Z00-Z99)"
+      "Factors influencing health status and contact with health services (Z00-Z99)"
+    ]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

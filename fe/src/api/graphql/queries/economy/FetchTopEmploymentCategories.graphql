@@ -1,0 +1,16 @@
+query FetchTopEmploymentCategories($pilot_nuts3: String!) {
+  datapoints(
+    survey: "bd_hgnace_r"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts3, "Persons employed - number"]
+    limit: 8
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

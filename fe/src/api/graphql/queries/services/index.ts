@@ -1,0 +1,10 @@
+export { default as FetchLivingCategory } from '@api/graphql/queries/services/FetchLivingCategory.graphql';
+export { default as FetchTopDiagnoses } from '@api/graphql/queries/services/FetchTopDiagnoses.graphql';
+export { default as FetchAllHospitalisations } from '@api/graphql/queries/services/FetchAllHospitalisations.graphql';
+export { default as FetchYouthNeet } from '@api/graphql/queries/services/FetchYouthNeet.graphql';
+export { default as FetchHospitalisationAges } from '@api/graphql/queries/services/FetchHospitalisationAges.graphql';
+export { default as FetchEducationalLevel } from '@api/graphql/queries/services/FetchEducationalLevel.graphql';
+export { default as FetchEnrollement } from '@api/graphql/queries/services/FetchEnrollement.graphql';
+export { default as FetchDisposalCapacity } from '@api/graphql/queries/services/FetchDisposalCapacity.graphql';
+export { default as FetchServiceIcons } from '@api/graphql/queries/services/FetchServiceIcons.graphql';
+export { default as FetchEducationIcons } from '@api/graphql/queries/services/FetchEducationIcons.graphql';

@@ -1,0 +1,20 @@
+query FetchEnablingIcons($pilot: String!) {
+  coworking_space: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Coworking Space"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  company_office: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Company Office"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

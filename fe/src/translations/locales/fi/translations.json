@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "Koti",
+    "dashboard": "Kojelauta",
+    "analysis": "Analyysi",
+    "help": "Ohje"
+  },
+  "notFound": {
+    "title": "Sivua ei löydy",
+    "description": "Etsimääsi sivua ei ole olemassa tai se on siirretty.",
+    "backButton": "Takaisin etusivulle"
+  },
+  "help": {
+    "title": "Ohjeet ja tuki",
+    "sections": {
+      "dataTitle": "Indikaattoreiden käyttö",
+      "dataText": "Indikaattorit lasketaan valituille maaseutualueille ja ne on yhdistetty NUTS 2- ja NUTS 3 -alueisiin. Käytä koontinäyttöä ja analyysisivuja arvojen tutkimiseen, alueiden vertailuun ja yksityiskohtaisten selitysten lukemiseen.",
+      "mapTitle": "NUTS-karttojen ymmärtäminen",
+      "mapText": "Oikealla näkyvä kartta näyttää NUTS 2- ja NUTS 3 -alueiden rajat ja korostaa projektissa käytettyjä alueita. Voit vaihtaa tasojen välillä nähdäksesi, miten paikalliset pilottialueet sijoittuvat laajempiin tilastollisiin alueisiin."
+    },
+    "buttons": {
+      "backHome": "Takaisin etusivulle",
+      "contact": "Ota yhteyttä tukeen"
+    },
+    "map": {
+      "nuts2": "NUTS 2",
+      "nuts3": "NUTS 3",
+      "alt": "Kartta {{level}}-alueista, joita käytetään projektissa",
+      "caption": "Lähde: virallinen NUTS-luokitus (Eurostat).",
+      "levelToggleAria": "Valitse NUTS-kartan taso"
+    }
+  },
+  "footer": {
+    "euLogoText1": "Euroopan unionin",
+    "euLogoText2": "osarahoittama"
+  },
+  "drawer": {
+    "title": "Alueet",
+    "search": "Etsi aluetta"
+  },
+  "searchfilter": {
+    "searchfordata": "Tietojen haku",
+    "suggestedsearch": "Ehdotettu haku",
+    "areaLevel": "Aluetaso",
+    "showingdatafor": "Näytetään tietoja kohteelle",
+    "area": "Alue",
+    "search": "Haku otsikon mukaan",
+    "hint": {
+      "country": "Valtiotaso",
+      "nuts1": "NUTS 1 -taso",
+      "nuts2": "NUTS 2 -taso",
+      "nuts3": "NUTS 3 -taso",
+      "pilotRegion": "Pilottialueen taso"
+    }
+  },
+  "homepage": {
+    "title": "SMART ERA",
+    "description": "Tämä EU-projekti hyödyntää digitaalista aikakautta ja älykkäitä strategioita puhaltaakseen uutta elämää näille alueille, muuttaen haasteet mahdollisuuksiksi. Infrastruktuurin elvyttämisestä yrittäjyyden edistämiseen luomme käytännöllisiä ratkaisuja, jotka tuottavat todellista muutosta. Jokaisella askeleella rakennamme tulevaisuutta, jossa maaseutualueet houkuttelevat lahjakkuuksia ja investointeja ja luovat edellytykset kestävälle kasvulle."
+  },
+  "OSM": {
+    "coworkingSpace": "Coworking-tila",
+    "companyOffice": "Yrityksen toimisto"
+  },
+  "OSM_governance": {
+    "townhall": "Kaupungintalo",
+    "courthouse": "Oikeustalo",
+    "governmentBuilding": "Valtion rakennus",
+    "police": "Poliisi",
+    "fireStation": "Palolaitos"
+  },
+  "OSM_mobility": {
+    "parking": "Pysäköinti",
+    "fuelStation": "Huoltoasema",
+    "cycleBarrier": "Pyöräeste",
+    "motorcycleBarrier": "Moottoripyöräeste",
+    "motorway": "Moottoritie",
+    "trainStation": "Rautatieasema",
+    "publicTransport": "Joukkoliikenne",
+    "railways": "Rautatiet"
+  },
+  "OSM_economy": {
+    "alpineHut": "Vuoristomökki",
+    "campPitch": "Leirintäalueen paikka",
+    "campSite": "Leirintäalue",
+    "caravanSite": "Asuntoautopaikka",
+    "chalet": "Chalet-mökki",
+    "guestHouse": "Majatalo",
+    "hostel": "Hostelli",
+    "hotel": "Hotelli",
+    "motel": "Motelli",
+    "restaurant": "Ravintola",
+    "cinema": "Elokuvateatteri",
+    "vendingMachine": "Myyntiautomaatti",
+    "pipeline": "Putkilinja",
+    "industrialWorks": "Teollisuuslaitos",
+    "touristAttraction": "Nähtävyys",
+    "touristInfo": "Matkailuneuvonta",
+    "museum": "Museo"
+  },
+  "OSM_environment": {
+    "forest": "Metsä",
+    "river": "Joki",
+    "garden": "Puutarha",
+    "park": "Puisto",
+    "nationalPark": "Kansallispuisto",
+    "protectedArea": "Suojelualue",
+    "natureReserve": "Luonnonsuojelualue"
+  },
+  "OSM_environmentAdditional": {
+    "waterPoint": "Vesipiste",
+    "recycling": "Kierrätys",
+    "wastewaterPlant": "Jätevedenpuhdistamo"
+  },
+  "OSM_service": {
+    "hospital": "Sairaala",
+    "bank": "Pankki",
+    "cafe": "Kahvila",
+    "pharmacy": "Apteekki",
+    "cinema": "Elokuvateatteri",
+    "marketplace": "Tori",
+    "shops": "Kaupat",
+    "museum": "Museo"
+  },
+  "OSM_serviceEducation": {
+    "kindergarten": "Päiväkoti",
+    "school": "Koulu",
+    "college": "Korkeakoulu",
+    "university": "Yliopisto",
+    "educationOffice": "Koulutustoimisto",
+    "employmentOffice": "Työvoimatoimisto"
+  },
+  "Want to learn more?": "Haluatko tietää lisää?",
+  "Access the comprehensive PDF reports below.": "Tutustu alla oleviin kattaviin PDF-raportteihin.",
+  "Download PDF": "Lataa PDF",
+  "Open report": "Avaa raportti",
+  "Index": "Indeksi",
+  "dashboard": {
+    "tabs": {
+      "general": "Yleistä",
+      "enablingFactors": "Mahdollistavat tekijät",
+      "mobilityTransport": "Liikkuminen ja liikenne",
+      "governancePolicy": "Hallinto ja politiikka",
+      "economy": "Talous",
+      "environment": "Ympäristö",
+      "services": "Palvelut"
+    },
+    "pilot": {
+      "smarje-padna": {
+        "title": "Šmarje–Padna",
+        "country": "Slovenia",
+        "nuts1": "Slovenia",
+        "nuts2": "Länsi-Slovenia",
+        "nuts3": "Rannikolta–Karst"
+      },
+      "devetaki-plateau": {
+        "title": "Devetaki Plateau",
+        "country": "Bulgaria",
+        "nuts1": "Pohjois- ja Kaakkois-Bulgaria",
+        "nuts2": "Luoteinen",
+        "nuts3": "Lovech"
+      },
+      "northern-ostrobothnia": {
+        "title": "Pohjois-Ostrobothnia",
+        "country": "Suomi",
+        "nuts1": "Manner-Suomi",
+        "nuts2": "Pohjois- ja Itä-Suomi",
+        "nuts3": "Pohjois-Ostrobothnia"
+      },
+      "valle-di-sole": {
+        "title": "Valle di Sole",
+        "country": "Italia",
+        "nuts1": "Koillinen",
+        "nuts2": "Trenton itsehallintoalue",
+        "nuts3": "Trenton itsehallintoalue"
+      },
+      "east-herzegovina": {
+        "title": "Itäinen Herzegovina",
+        "country": "Bosnia ja Hertsegovina",
+        "nuts1": "Bosnia ja Hertsegovina"
+      },
+      "tramuntana-soller": {
+        "title": "Tramuntana/Sóller",
+        "country": "Espanja",
+        "nuts1": "Itä",
+        "nuts2": "Baleaarit",
+        "nuts3": "Mallorca"
+      }
+    },
+    "maps": {
+      "general": {
+        "populationDensity": "Väestötiheys"
+      },
+      "enablingFactors": {
+        "mobileCoverage": "Mobiiliverkon kuuluvuus tekniikoittain",
+        "gsmCoverage": "2G-kuuluvuus",
+        "coverage3g": "3G-kuuluvuus",
+        "coverage4g": "4G-kuuluvuus",
+        "cellTowerDensity": "Tukiasemien tiheys",
+        "numberOfCellTowers": "Tukiasemien lukumäärä"
+      },
+      "mobilityTransport": {
+        "dailyBusStopFrequency": "Bussipysäkkien päivittäinen vuorotiheys",
+        "busStopDensity": "Bussipysäkkien tiheys",
+        "numberOfBusStops": "Bussipysäkkien lukumäärä",
+        "cyclingWalkingInfrastructure": "Pyöräilyn ja kävelyn infrastruktuuri",
+        "allCyclingAccessiblePathLength": "Kaikkien pyöräilyyn soveltuvien reittien pituus",
+        "designatedWalkingCyclingPathLength": "Merkittyjen kävely- ja pyöräilyreittien pituus",
+        "residentialWalkingCyclingPathLength": "Asuinalueiden kävely- ja pyöräilyreittien pituus",
+        "summedWalkingCyclingPathLength": "Reittien yhteenlaskettu pituus"
+      },
+      "services": {
+        "postalServiceDensity": "Postipalvelujen tiheys",
+        "postOfficeDensity": "Postitoimistojen tiheys",
+        "numberOfPostOffices": "Postitoimistojen määrä",
+        "postBoxDensity": "Postilaatikoiden tiheys",
+        "numberOfPostBoxes": "Postilaatikoiden määrä",
+        "carAccessibility": "Saavutettavuus autolla",
+        "carAccessibilityPost": "Saavutettavuus autolla postipalveluihin",
+        "carAccessibilityEvCharger": "Saavutettavuus autolla sähköautojen latauspisteisiin",
+        "carAccessibilityGroceryStore": "Saavutettavuus autolla ruokakauppoihin",
+        "carAccessibilityLibrary": "Saavutettavuus autolla kirjastoihin"
+      },
+      "helpers": {
+        "available": "Saatavilla",
+        "notAvailable": "Ei saatavilla"
+      }
+    },
+    "charts": {
+      "general": {
+        "leadingCitizenships": "Asukkaiden yleisimmät kansalaisuudet",
+        "totalPopulationChange": "Kokonaisväestön muutos ajan kuluessa",
+        "yearlyLiveBirths": "Vuotuiset elävänä syntyneet (viimeisimmät tiedot)",
+        "yearlyDeaths": "Vuotuiset kuolemat (viimeisimmät tiedot)",
+        "netMigrations": "Nettomuutot (oikaistut) ajan kuluessa",
+        "populationBySex": "Väestö sukupuolen mukaan",
+        "populationByAgeAndSex": "Väestö ikäryhmittäin ja sukupuolen mukaan",
+        "populationByMaritalStatus": "Väestö siviilisäädyn mukaan",
+        "populationByHouseholdTypeAgeSex": "Väestö kotitalouden tyypin, ikäryhmän ja sukupuolen mukaan (väestönlaskenta ",
+        "populationDensity": "Väestöntiheys (henkilöä/km²)",
+        "maritalStatusDistribution": "Jakautuminen siviilisäädyn mukaan"
+      },
+      "enablingFactors": {
+        "internetUseFrequency": "Internetin käyttötiheys yksilöillä (prosentteina)",
+        "householdsWithInternetAccess": "Kotitalouksien osuus, joilla on internet-yhteys",
+        "internetUseActivities": "Yksilöiden netinkäyttöaktiviteetit (prosentteina)",
+        "buyingOnlineLast3Months": "% Verkkokaupat ostot (viimeiset 3 kuukautta)",
+        "buyingOnlineLast3MonthsOverTime": "% Verkkokaupat ostot (viimeiset 3 kk) ajan kuluessa",
+        "onlineInteractionWithAuthorities": "% Verkkovuorovaikutus viranomaisten kanssa (viime vuosina)",
+        "internetAccessSpeedEnterprises": "Yritysten internet-yhteyden nopeus",
+        "enablingInfrastructure": "Mahdollistava infrastruktuuri"
+      },
+      "economy": {
+        "gvaByCurrency": "Bruttolisäarvo valuutoittain",
+        "nominalLabourProductivity": "Nimellinen työtuottavuus € per henkilö",
+        "gdpLastYear": "BKT viimeisimmältä raportoidulta vuodelta",
+        "employedPersonsNACE": "Työlliset NACE-toimialoittain",
+        "topEmploymentCategories": "Suurimmat työllisyyskategoriat",
+        "gdpPerInhabitant": "BKT asukasta kohden miljoonina €",
+        "employmentByBusinessSector": "Työllisyys toimialoittain",
+        "enterpriseSizeClass": "Yrityskokoluokka (teollisuus, rakentaminen, palvelut)",
+        "patentApplicationsPerMillion": "Patenttihakemukset miljoonaa asukasta kohden",
+        "highGrowthEnterprises": "Nopeasti kasvavat yritykset (HGE) työllisyyden mukaan – huippusektorit (viimeisin vuosi)",
+        "bihActivitiesIndex": "BiH:n aktiviteetti-indeksi",
+        "totalServicesIndex": "Palvelujen kokonaisindeksi",
+        "totalNetEarningsBIH": "Kokonaisnettopalkat",
+        "totalGrossEarningsBIH": "Kokonaisbruttopalkat",
+        "touristNightsBIH": "Matkailijoiden yöpymiset",
+        "numberOfCompaniesBIH": "Yritysten määrä",
+        "employmentTopSectorsBIH": "Työllisyys — johtavat toimialat",
+        "touristLodgingFacilities": "Matkailumajoitus",
+        "additionalEconomyIndicators": "Talouden lisäindikaattorit"
+      },
+      "mobilityTransport": {
+        "transportedGoodsLoaded": "Maanteitse kuljetetut tavarat, lastattu alueella (tt)",
+        "mostTransportedGoods": "Eniten kuljetetut tavarat, lastattu alueella (tt)",
+        "transportedGoodsUnloaded": "Maanteitse kuljetetut tavarat, purettu alueella (tt)",
+        "electricPassengerCars": "Rekisteröidyt sähköhenkilöautot",
+        "transportedGoodsBreakdown": "Lastatun kuljetetun tavaran erittely (tt)",
+        "railwayPassengerTransport": "Juna-asiakasliikenne",
+        "transportedGoodsBIH": "Tonneittain kuljetettuja tavaroita (tt)",
+        "transportedGoodsIndexBIH": "Kuljetettujen tavaroiden indeksi",
+        "additionalMobilityIndicators": "Liikkuvuuden lisäindikaattorit",
+        "keyPublicTransportIndicators": "Joukkoliikenteen keskeiset indikaattorit"
+      },
+      "governancePolicy": {
+        "employedPersonsTotal": "Työllisten määrä tuhansina",
+        "employmentRate": "Työllisyysaste (työllisten osuus väestöstä)",
+        "rdExpenditure": "T&K-menot (miljoonaa €)",
+        "keyGovernanceIndicators": "Hallinnon keskeiset indikaattorit"
+      },
+      "environment": {
+        "heatingDegreeDays": "Vuotuiset lämmityspäivien lämpötilayksiköt",
+        "coolingDegreeDays": "Vuotuiset jäähdytyspäivien lämpötilayksiköt",
+        "landUseDistribution": "Maankäytön jakautuminen kategorioittain (inha)",
+        "recyclingFacilitiesCount": "Kierrätyslaitosten lukumäärä",
+        "energyRecovery": "Energian talteenotto jätteestä (t/vuosi)",
+        "recyclingPlusFacilitiesCount": "Kierrätys- ja täyttölaitosten määrä",
+        "miningCoalLigniteIndex": "Kivihiilen ja ligniitin kaivostoiminnan indeksi",
+        "utilityIndicators": "Yhdyskuntapalvelujen indikaattorit",
+        "greenSpaceIndicators": "Vihreiden alueiden indikaattorit"
+      },
+      "services": {
+        "hospitalDischargesTotal": "Vuotuiset sairaalapotilaiden kotiutukset",
+        "topHospitalDischargesByDiagnosis": "Yleisimmät diagnoosit sairaalapotilaiden kotiutuksissa (potilasmäärä, viimeisin vuosi)",
+        "hospitalDischargesByAgeGroup": "Sairaalapotilaiden kotiutukset ikäryhmittäin",
+        "youthNeetByGenderYear": "Nuoret NEET-ryhmä sukupuolen ja vuoden mukaan",
+        "educationalAttainmentYouth": "Nuorten (15–24) koulutustaso",
+        "tertiaryEnrollment": "Tertiary-koulutukseen vuosittain ilmoittautuneet (viimeisin vuosi)",
+        "disposalCapacity": "Jätteen sijoitustilavuus kaatopaikalla (m³)",
+        "publicAndCommercial": "Julkiset ja kaupalliset palvelut",
+        "educationAndEmploymentInfra": "Koulutus- ja työllisyysinfrastruktuuri"
+      },
+      "analysis": {
+        "maxVillagesSelected": "Voit valita enintään {{count}} kylää",
+        "index": "Indeksi",
+        "explanation": "Selite",
+        "closerToOne": "Arvoa lähempänä 1,0 tarkoittaa parempaa tulosta kaikilla indikaattoreilla.",
+        "selectLocations": "Valitse vertailtavat alueet:",
+        "smartnessIndex": {
+          "title": "Kylien älykkyysindeksi",
+          "description": "Yhdistelmäpisteet (0–1) kaikista ulottuvuuksista."
+        },
+        "indicator": "Indikaattori",
+        "indicators": {
+          "1_1_1": {
+            "name": "Digitaalinen yhteys",
+            "description": "Mittaa digitaalisten verkkoyhteyksien saatavuutta ja laatua maaseutuyhteisöissä."
+          },
+          "1_1_2": {
+            "name": "Perinteinen yhteys",
+            "description": "Arvioi perinteisiä, ei-digitaalisia viestintämuotoja (esim. posti, puhelin)."
+          },
+          "1_1_4": {
+            "name": "Internetin saavutettavuus",
+            "description": "Tutkii internet-yhteyksien taloudellista ja hinnallista saavutettavuutta."
+          },
+          "2_1_1": {
+            "name": "Joukkoliikenteen saavutettavuus",
+            "description": "Mittaa julkisen liikenteen saatavuutta ja saavutettavuutta."
+          },
+          "2_2_2": {
+            "name": "Vähähiiliset ajoneuvot",
+            "description": "Arvioi vähähiilisiä tai uusiutuvilla polttoaineilla toimivien ajoneuvojen käyttöä."
+          },
+          "3_2_1": {
+            "name": "Paikallinen energiantuotanto",
+            "description": "Mittaa paikallisten energiantuotantolaitosten laajuutta ja niiden roolia alueen energian omavaraisuudessa."
+          }
+        }
+      }
+    }
+  }
+}

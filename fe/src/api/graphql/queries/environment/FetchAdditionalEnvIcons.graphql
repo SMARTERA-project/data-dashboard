@@ -1,0 +1,29 @@
+query FetchAdditionalEnvIcons($pilot: String!) {
+  water_point: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Water Point"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  recycling: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Recycling"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  wastewater: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Wastewater Plant"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

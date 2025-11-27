@@ -1,0 +1,23 @@
+query FetchInternetFrequency($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_IUSE_I"
+    sortBy: ["year"]
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts2]
+    exclude: [
+      "Internet use: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.)"
+      "Internet use: Internet banking"
+      "Internet use: selling goods or services"
+      "Last internet use: in the last 12 months"
+      "Last internet use: in last 3 months"
+    ]
+    limit: 5
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

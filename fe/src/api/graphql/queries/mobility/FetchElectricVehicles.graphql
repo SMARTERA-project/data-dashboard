@@ -1,0 +1,16 @@
+query FetchElectricVehicles($pilot_nuts2: String!) {
+  datapoints(
+    survey: "TRAN_R_ELVEHST"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts2, "Passenger cars"]
+    exclude: ["Percentage"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

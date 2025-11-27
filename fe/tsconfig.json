@@ -1,0 +1,35 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // Base options
+    "strict": false,
+    "jsx": "react-jsx",
+
+    // Individual strict options
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "suppressImplicitAnyIndexErrors": true,
+
+    // Allow JS-like behavior
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+
+    // Use modern features
+    "lib": ["dom", "es2022"],
+    "target": "es2022",
+
+    // Build and tooling
+    "forceConsistentCasingInFileNames": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    // 👇 Add this
+    "typeRoots": ["./src/types", "./node_modules/@types"]
+  }
+}

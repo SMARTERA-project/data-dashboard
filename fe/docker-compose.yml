@@ -1,0 +1,14 @@
+
+services:
+  smartera-dashboard-fe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - "80"
+    networks:
+      - nginx-proxy-internal
+
+networks:
+  nginx-proxy-internal:
+    external: true

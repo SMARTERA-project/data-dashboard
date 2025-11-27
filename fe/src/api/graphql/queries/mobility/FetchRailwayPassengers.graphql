@@ -1,0 +1,17 @@
+query FetchRailwayPassengers($pilot_nuts2: String!) {
+  datapoints(
+    survey: "TRAN_R_RAPA"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    filterBy: 2
+    filter: [$pilot_nuts2]
+    limit: 8
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

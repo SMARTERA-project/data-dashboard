@@ -1,0 +1,16 @@
+query FetchTotalServicesIndexBIH {
+  datapoints(
+    survey: "STS_05.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["desc"]
+    dimensions: ["Gross Index", "Total services", "2025-2Q"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

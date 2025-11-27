@@ -1,0 +1,15 @@
+query FetchGdpPerInhabitant($pilot_nuts3: String!) {
+  datapoints(
+    survey: "nama_10r_3gdp"
+    sortBy: "year"
+    sortOrder: "asc"
+    dimensions: [$pilot_nuts3, "Euro per inhabitant"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

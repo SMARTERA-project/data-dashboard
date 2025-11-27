@@ -1,0 +1,26 @@
+query FetchPopulationByCitizenshipCountry($pilot_nuts3: String!) {
+  datapoints(
+    survey: "cens_21ctz_r3"
+    sortBy: "value"
+    sortOrder: "desc"
+    dimensions: [$pilot_nuts3]
+    filterBy: 3
+    filter: ["Total"]
+    limit: 9
+    exclude: [
+      "Males"
+      "Females"
+      "Foreign country"
+      "Non-EU countries (aggregate changing according to the context)"
+      "European non-EU countries (aggregate changing according to the context)"
+      "EU-countries except reporting country"
+    ]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,9 @@
+export { default as FetchHeatingDays } from '@api/graphql/queries/environment/FetchHeatingDays.graphql';
+export { default as FetchCoolingDays } from '@api/graphql/queries/environment/FetchCoolingDays.graphql';
+export { default as FetchLandUse } from '@api/graphql/queries/environment/FetchLandUse.graphql';
+export { default as FetchRecyclingFacilities } from '@api/graphql/queries/environment/FetchRecyclingFacilities.graphql';
+export { default as FetchRecyclingPlusFacilities } from '@api/graphql/queries/environment/FetchRecyclingPlusFacilities.graphql';
+export { default as FetchEnergyRecovery } from '@api/graphql/queries/environment/FetchEnergyRecovery.graphql';
+export { default as FetchEnvironmentIcons } from '@api/graphql/queries/environment/FetchEnvironmentIcons.graphql';
+export { default as FetchAdditionalEnvIcons } from '@api/graphql/queries/environment/FetchAdditionalEnvIcons.graphql';
+export { default as FetchMiningBIH } from '@api/graphql/queries/environment/FetchMiningBIH.graphql';

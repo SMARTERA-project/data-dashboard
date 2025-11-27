@@ -1,0 +1,18 @@
+query FetchTouristNightsBIH {
+  datapoints(
+    survey: "TUR_01.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["desc"]
+    dimensions: ["Total number  of nights"]
+    limit: 24
+    exclude: ["2023", "2024", "2022"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

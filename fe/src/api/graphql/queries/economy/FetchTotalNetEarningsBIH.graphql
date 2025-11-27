@@ -1,0 +1,16 @@
+query FetchTotalNetEarningsBIH {
+  datapoints(
+    survey: "LAB_01.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["asc"]
+    dimensions: ["TOTAL NETT EARNINGS"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

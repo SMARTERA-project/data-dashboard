@@ -1,0 +1,34 @@
+query FetchMobilityIcons($pilot: String!) {
+  parking: datapoints(source: "OSM", region: $pilot, dimensions: ["Parking"]) {
+    region
+    dimensions
+    value
+  }
+  fuel_station: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Fuel Station"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  cycle_barrier: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Cycle Barrier"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  motorcycle_barrier: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Motorcycle Barrier"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

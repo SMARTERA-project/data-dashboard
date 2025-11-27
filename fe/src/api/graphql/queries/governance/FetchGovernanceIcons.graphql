@@ -1,0 +1,47 @@
+query FetchGovernanceIcons($pilot: String!) {
+  townhall: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Townhall"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  courthouse: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Courthouse"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  government_building: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Government Building"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  police: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Police"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  fire_station: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Fire Station"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

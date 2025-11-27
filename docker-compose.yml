@@ -1,0 +1,142 @@
+version: '3.8'
+
+services:
+
+  smartera-dashboard-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - 4000
+    environment:
+      DB_CONNECTION_STRING: ${MONGODB_URI}
+    networks:
+      - smartera-network
+      - nginx-proxy-internal
+
+  smartera-mongo:
+    image: mongo:latest
+    ports:
+      - 27017
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME}
+    command: --auth
+    restart: always
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - smartera-network
+
+  smartera-mongo-init:
+    image: mongo:latest
+    depends_on:
+      smartera-mongo:
+        condition: service_healthy
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_ROOT_PASSWORD}
+    command: >
+      mongosh --host ${MONGODB_HOST} --username ${MONGODB_ROOT_USERNAME} --password ${MONGODB_ROOT_PASSWORD} --authenticationDatabase admin --eval '
+        db = db.getSiblingDB("${MONGODB_DB_NAME}");
+        db.createUser({
+          user: "${MONGODB_APP_USERNAME}",
+          pwd: "${MONGODB_APP_PASSWORD}",
+          roles: [{ role: "readWrite", db: "${MONGODB_DB_NAME}" }]
+        });
+        db.createCollection("survay");
+        db.createCollection("${MONGODB_COLLECTION_NAME}");
+      '
+    restart: "no"
+    networks:
+      - smartera-network
+
+  datapoints-init:
+    build:
+      context: ./datapoints
+      dockerfile: Dockerfile
+    depends_on:
+      smartera-mongo-init:
+        condition: service_completed_successfully
+    volumes:
+      - ./datapoints/data:/app/data
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DB_NAME: ${MONGODB_DB_NAME}
+      MONGODB_COLLECTION_NAME: ${MONGODB_COLLECTION_NAME}
+    networks:
+      - smartera-network
+    restart: "no"
+
+  osm-init:
+    build:
+      context: ./smarteraOSM
+      dockerfile: Dockerfile
+    depends_on:
+      smartera-mongo-init:
+        condition: service_completed_successfully
+    networks:
+      - smartera-network
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DB_NAME: ${MONGODB_DB_NAME}
+      MONGODB_COLLECTION_NAME: ${MONGODB_COLLECTION_NAME}
+    restart: "no"   
+
+  scch-init:
+    build:
+      context: ./datapoints
+      dockerfile: Dockerfile-scch
+    depends_on:
+      smartera-mongo-init:
+        condition: service_completed_successfully
+    volumes:
+      - ./datapoints/data:/app/data
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DB_NAME: ${MONGODB_DB_NAME}
+      MONGODB_COLLECTION_NAME: ${MONGODB_COLLECTION_NAME}
+    networks:
+      - smartera-network
+    restart: "no"
+
+  bih-parser:
+    build:
+      context: ./smarteraBiH
+      dockerfile: Dockerfile
+    depends_on:
+      smartera-mongo-init:
+        condition: service_completed_successfully
+    networks:
+      - smartera-network
+    restart: "no"
+    volumes:
+      - ./smarteraBiH/excel_data:/app/excel_data
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DB_NAME: ${MONGODB_DB_NAME}
+      MONGODB_COLLECTION_NAME: ${MONGODB_COLLECTION_NAME}
+
+  pdf-server:
+    build:
+      context: ./pdf-server
+      dockerfile: Dockerfile
+    networks:
+      - smartera-network
+      - nginx-proxy-internal
+
+volumes:
+  mongo-data:
+
+networks:
+  smartera-network:
+    driver: bridge
+  nginx-proxy-internal:
+    external: true
+    name: nginx-proxy-internal

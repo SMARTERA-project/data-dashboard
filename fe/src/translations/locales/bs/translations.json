@@ -1,0 +1,354 @@
+{
+  "nav": {
+    "home": "Početna",
+    "dashboard": "Kontrolna ploča",
+    "analysis": "Analiza",
+    "help": "Pomoć"
+  },
+
+  "notFound": {
+    "title": "Stranica nije pronađena",
+    "description": "Stranica koju tražite ne postoji ili je premještena.",
+    "backButton": "Nazad na početnu"
+  },
+  "help": {
+    "title": "Pomoć i smjernice",
+    "sections": {
+      "dataTitle": "Rad s indikatorima",
+      "dataText": "Indikatori se izračunavaju za odabrana ruralna područja i povezani su s NUTS 2 i NUTS 3 regijama. Koristite stranicu kontrolne ploče i analize kako biste istražili vrijednosti, uporedili lokacije i pročitali detaljna objašnjenja za svaki indikator.",
+      "mapTitle": "Razumijevanje NUTS mapa",
+      "mapText": "Mapa desno prikazuje granice NUTS 2 i NUTS 3 regija i ističe regije korištene u projektu. Možete prebacivati nivoe kako biste vidjeli kako se lokalna pilotska područja uklapaju u šire statističke regije."
+    },
+    "buttons": {
+      "backHome": "Nazad na početnu stranicu",
+      "contact": "Kontaktiraj podršku"
+    },
+    "map": {
+      "nuts2": "NUTS 2",
+      "nuts3": "NUTS 3",
+      "alt": "Mapa {{level}} regija korištenih u projektu",
+      "caption": "Izvor: zvanična NUTS klasifikacija (Eurostat).",
+      "levelToggleAria": "Odaberite nivo NUTS mape"
+    }
+  },
+  "footer": {
+    "euLogoText1": "Suofinansira",
+    "euLogoText2": "Evropska unija"
+  },
+  "drawer": {
+    "title": "Regije",
+    "search": "Pretraga regije"
+  },
+  "searchfilter": {
+    "searchfordata": "Pretraživanje podataka",
+    "suggestedsearch": "Predložena pretraga",
+    "areaLevel": "Nivo područja",
+    "showingdatafor": "Prikaz podataka za",
+    "area": "Područje",
+    "search": "Pretraga po naslovu",
+    "hint": {
+      "country": "Nivo države",
+      "nuts1": "Nivo NUTS 1",
+      "nuts2": "Nivo NUTS 2",
+      "nuts3": "Nivo NUTS 3",
+      "pilotRegion": "Nivo pilotne regije"
+    }
+  },
+  "homepage": {
+    "title": "SMART ERA",
+    "description": "Ovaj EU projekt koristi digitalno doba i pametne strategije kako bi udahnuo novi život u ove regije, pretvarajući izazove u prilike. Od revitalizacije infrastrukture do poticanja poduzetništva, stvaramo praktična rješenja koja čine stvarnu razliku. Sa svakim korakom gradimo budućnost u kojoj ruralna područja privlače talente i ulaganja te postavljaju temelje za održivi rast."
+  },
+  "OSM": {
+    "coworkingSpace": "Coworking prostor",
+    "companyOffice": "Kancelarija kompanije"
+  },
+  "OSM_governance": {
+    "townhall": "Općina",
+    "courthouse": "Sud",
+    "governmentBuilding": "Vladina zgrada",
+    "police": "Policija",
+    "fireStation": "Vatrogasna stanica"
+  },
+  "OSM_mobility": {
+    "parking": "Parking",
+    "fuelStation": "Benzinska stanica",
+    "cycleBarrier": "Biciklistička barijera",
+    "motorcycleBarrier": "Barijera za motocikle",
+    "motorway": "Autocesta",
+    "trainStation": "Željeznička stanica",
+    "publicTransport": "Javni prijevoz",
+    "railways": "Željeznice"
+  },
+  "OSM_economy": {
+    "alpineHut": "Planinska kuća",
+    "campPitch": "Kamp parcela",
+    "campSite": "Kamp",
+    "caravanSite": "Kamp za kampere",
+    "chalet": "Brvnara / chalet",
+    "guestHouse": "Gostinska kuća",
+    "hostel": "Hostel",
+    "hotel": "Hotel",
+    "motel": "Motel",
+    "restaurant": "Restoran",
+    "cinema": "Kino",
+    "vendingMachine": "Prodajni automat",
+    "pipeline": "Cjevovod",
+    "industrialWorks": "Industrijski pogon",
+    "touristAttraction": "Turistička atrakcija",
+    "touristInfo": "Turističke informacije",
+    "museum": "Muzej"
+  },
+  "OSM_environment": {
+    "forest": "Šuma",
+    "river": "Rijeka",
+    "garden": "Bašta",
+    "park": "Park",
+    "nationalPark": "Nacionalni park",
+    "protectedArea": "Zaštićeno područje",
+    "natureReserve": "Prirodni rezervat"
+  },
+  "OSM_environmentAdditional": {
+    "waterPoint": "Izvor vode",
+    "recycling": "Reciklaža",
+    "wastewaterPlant": "Postrojenje za otpadne vode"
+  },
+  "OSM_service": {
+    "hospital": "Bolnica",
+    "bank": "Banka",
+    "cafe": "Kafić",
+    "pharmacy": "Apoteka",
+    "cinema": "Kino",
+    "marketplace": "Tržnica",
+    "shops": "Prodavnice",
+    "museum": "Muzej"
+  },
+  "OSM_serviceEducation": {
+    "kindergarten": "Vrtić",
+    "school": "Škola",
+    "college": "Koledž",
+    "university": "Univerzitet",
+    "educationOffice": "Ured za obrazovanje",
+    "employmentOffice": "Biro za zapošljavanje"
+  },
+  "Want to learn more?": "Želite saznati više?",
+  "Access the comprehensive PDF reports below.": "Pristupite detaljnim PDF izvještajima u nastavku.",
+  "Download PDF": "Preuzmi PDF",
+  "Open report": "Otvori izvještaj",
+  "Index": "Indeks",
+  "dashboard": {
+    "tabs": {
+      "general": "Općenito",
+      "enablingFactors": "Omogućujući faktori",
+      "mobilityTransport": "Mobilnost i transport",
+      "governancePolicy": "Upravljanje i politika",
+      "economy": "Ekonomija",
+      "environment": "Okoliš",
+      "services": "Usluge"
+    },
+    "pilot": {
+      "smarje-padna": {
+        "title": "Šmarje–Padna",
+        "country": "Slovenija",
+        "nuts1": "Slovenija",
+        "nuts2": "Zapadna Slovenija",
+        "nuts3": "Obalu–Karst"
+      },
+      "devetaki-plateau": {
+        "title": "Plato Devetaki",
+        "country": "Bugarska",
+        "nuts1": "Sjeverna i Jugoistočna Bugarska",
+        "nuts2": "Sjeverozapad",
+        "nuts3": "Loveč"
+      },
+      "northern-ostrobothnia": {
+        "title": "Sjeverna Ostrobotnija",
+        "country": "Finska",
+        "nuts1": "Kontinentalna Finska",
+        "nuts2": "Sjeverna i Istočna Finska",
+        "nuts3": "Sjeverna Ostrobotnija"
+      },
+      "valle-di-sole": {
+        "title": "Valle di Sole",
+        "country": "Italija",
+        "nuts1": "Sjeveroistok",
+        "nuts2": "Autonomna Provincija Trento",
+        "nuts3": "Autonomna Provincija Trento"
+      },
+      "east-herzegovina": {
+        "title": "Istočna Hercegovina",
+        "country": "Bosna i Hercegovina",
+        "nuts1": "Bosna i Hercegovina"
+      },
+      "tramuntana-soller": {
+        "title": "Tramuntana/Sóller",
+        "country": "Španija",
+        "nuts1": "Istok",
+        "nuts2": "Balearska Ostrva",
+        "nuts3": "Mallorca"
+      }
+    },
+    "maps": {
+      "general": {
+        "populationDensity": "Gustoća stanovništva"
+      },
+      "enablingFactors": {
+        "mobileCoverage": "Pokrivenost mobilne mreže po tehnologiji",
+        "gsmCoverage": "Pokrivenost 2G",
+        "coverage3g": "Pokrivenost 3G",
+        "coverage4g": "Pokrivenost 4G",
+        "cellTowerDensity": "Gustoća baznih stanica",
+        "numberOfCellTowers": "Broj baznih stanica"
+      },
+      "mobilityTransport": {
+        "dailyBusStopFrequency": "Dnevna frekvencija autobuskih stajališta",
+        "busStopDensity": "Gustoća autobuskih stajališta",
+        "numberOfBusStops": "Broj autobuskih stajališta",
+        "cyclingWalkingInfrastructure": "Biciklistička i pješačka infrastruktura",
+        "allCyclingAccessiblePathLength": "Dužina svih staza dostupnih za vožnju biciklom",
+        "designatedWalkingCyclingPathLength": "Dužina označenih pješačkih i biciklističkih staza",
+        "residentialWalkingCyclingPathLength": "Dužina pješačkih i biciklističkih staza u stambenim zonama",
+        "summedWalkingCyclingPathLength": "Zbirna dužina staza"
+      },
+      "services": {
+        "postalServiceDensity": "Gustoća poštanskih usluga",
+        "postOfficeDensity": "Gustoća poštanskih ureda",
+        "numberOfPostOffices": "Broj poštanskih ureda",
+        "postBoxDensity": "Gustoća poštanskih sandučića",
+        "numberOfPostBoxes": "Broj poštanskih sandučića",
+        "carAccessibility": "Dostupnost automobilom",
+        "carAccessibilityPost": "Dostupnost automobilom do poštanskih usluga",
+        "carAccessibilityEvCharger": "Dostupnost automobilom do punionica za električne automobile",
+        "carAccessibilityGroceryStore": "Dostupnost automobilom do trgovina s namirnicama",
+        "carAccessibilityLibrary": "Dostupnost automobilom do biblioteka"
+      },
+      "helpers": {
+        "available": "Dostupno",
+        "notAvailable": "Nije dostupno"
+      }
+    },
+    "charts": {
+      "general": {
+        "leadingCitizenships": "Vodeća državljanstva stanovnika",
+        "totalPopulationChange": "Ukupna promjena stanovništva tokom vremena",
+        "yearlyLiveBirths": "Godišnji živi rođeni (posljednji godišnji podaci)",
+        "yearlyDeaths": "Godišnje smrti (posljednji godišnji podaci)",
+        "netMigrations": "Neto migracije (prilagođene) tokom vremena",
+        "populationBySex": "Stanovništvo po spolu",
+        "populationByAgeAndSex": "Stanovništvo po starosnim grupama i spolu",
+        "populationByMaritalStatus": "Stanovništvo po bračnom statusu",
+        "populationByHouseholdTypeAgeSex": "Stanovništvo prema tipu domaćinstva, starosnoj grupi i spolu (Popis ",
+        "populationDensity": "Gustina stanovništva (ljudi po km²)",
+        "maritalStatusDistribution": "Distribucija po bračnom statusu"
+      },
+      "enablingFactors": {
+        "internetUseFrequency": "Učestalost korištenja interneta kod pojedinaca (u %)",
+        "householdsWithInternetAccess": "Postotak domaćinstava s pristupom internetu",
+        "internetUseActivities": "Aktivnosti korištenja interneta kod pojedinaca (u %)",
+        "buyingOnlineLast3Months": "% Kupovina putem interneta (posljednja 3 mjeseca)",
+        "buyingOnlineLast3MonthsOverTime": "% Kupovina putem interneta (posljednja 3 mjeseca) tokom vremena",
+        "onlineInteractionWithAuthorities": "% Online interakcija s vlastima (posljednja godina)",
+        "internetAccessSpeedEnterprises": "Brzina pristupa internetu u preduzećima",
+        "enablingInfrastructure": "Omogućavajuća infrastruktura"
+      },
+      "economy": {
+        "gvaByCurrency": "Bruto dodana vrijednost po valutama",
+        "nominalLabourProductivity": "Nominalna radna produktivnost u € po osobi",
+        "gdpLastYear": "BDP u posljednjoj prijavljenoj godini",
+        "employedPersonsNACE": "Zaposlene osobe (NACE)",
+        "topEmploymentCategories": "Najznačajnije kategorije zapošljavanja",
+        "gdpPerInhabitant": "BDP po stanovniku u mio €",
+        "employmentByBusinessSector": "Zapošljavanje po poslovnom sektoru",
+        "enterpriseSizeClass": "Klasa veličine preduzeća (industrija, gradnja i usluge)",
+        "patentApplicationsPerMillion": "Broj patentnih prijava na milion stanovnika",
+        "highGrowthEnterprises": "Broj preduzeća s visokim rastom (HGE) prema zapošljavanju – vodeći sektori (posljednja godina)",
+        "bihActivitiesIndex": "Indeks aktivnosti",
+        "totalServicesIndex": "Indeks ukupnih usluga",
+        "totalNetEarningsBIH": "Ukupne neto zarade",
+        "totalGrossEarningsBIH": "Ukupne bruto zarade",
+        "touristNightsBIH": "Noćenja turista",
+        "numberOfCompaniesBIH": "Broj preduzeća",
+        "employmentTopSectorsBIH": "Zaposlenost — vodeći sektori",
+        "touristLodgingFacilities": "Smještajni kapaciteti za turiste",
+        "additionalEconomyIndicators": "Dodatni ekonomski pokazatelji"
+      },
+      "mobilityTransport": {
+        "transportedGoodsLoaded": "Roba prevezena cestom, utovarena u regiji (tt)",
+        "mostTransportedGoods": "Najčešće prevezena roba, utovarena u regiji (tt)",
+        "transportedGoodsUnloaded": "Roba prevezena cestom, istovarena u regiji (tt)",
+        "electricPassengerCars": "Registrirani električni putnički automobili",
+        "transportedGoodsBreakdown": "Pregled utovarene prevezene robe (tt)",
+        "railwayPassengerTransport": "Željeznički putnički saobraćaj",
+        "transportedGoodsBIH": "Tone prevezene robe (tt)",
+        "transportedGoodsIndexBIH": "Indeks prevezene robe",
+        "additionalMobilityIndicators": "Dodatni indikatori mobilnosti",
+        "keyPublicTransportIndicators": "Ključni indikatori javnog prevoza"
+      },
+      "governancePolicy": {
+        "employedPersonsTotal": "Broj zaposlenih (u hiljadama)",
+        "employmentRate": "Postotak zaposlenih u ukupnom stanovništvu",
+        "rdExpenditure": "Troškovi istraživanja i razvoja (milijuni €)",
+        "keyGovernanceIndicators": "Ključni indikatori upravljanja"
+      },
+      "environment": {
+        "heatingDegreeDays": "Godišnji grijni stepen-dani",
+        "coolingDegreeDays": "Godišnji rashladni stepen-dani",
+        "landUseDistribution": "Distribucija korištenja zemljišta po kategorijama (inha)",
+        "recyclingFacilitiesCount": "Broj objekata za reciklažu",
+        "energyRecovery": "Povraćaj energije iz otpada (t/god)",
+        "recyclingPlusFacilitiesCount": "Broj objekata za reciklažu i zasipavanje",
+        "miningCoalLigniteIndex": "Indeks rudarstva uglja i lignita",
+        "utilityIndicators": "Indikatori komunalnih usluga",
+        "greenSpaceIndicators": "Indikatori zelenih površina"
+      },
+      "services": {
+        "hospitalDischargesTotal": "Godišnji otpusti iz bolnice po broju pacijenata",
+        "topHospitalDischargesByDiagnosis": "Najčešći otpusti iz bolnice po dijagnozi (broj pacijenata, posljednja godina)",
+        "hospitalDischargesByAgeGroup": "Otpusti iz bolnice po starosnim grupama",
+        "youthNeetByGenderYear": "Mladi NEET po spolu i godini",
+        "educationalAttainmentYouth": "Obrazovni nivo mladih (15–24 godine)",
+        "tertiaryEnrollment": "Godišnji upis u tercijarno obrazovanje (posljednja godina)",
+        "disposalCapacity": "Kapacitet odlaganja otpada na deponiji (m³)",
+        "publicAndCommercial": "Javne i komercijalne usluge",
+        "educationAndEmploymentInfra": "Infrastruktura obrazovanja i zapošljavanja"
+      },
+      "analysis": {
+        "maxVillagesSelected": "Maksimalno {{count}} sela je moguće odabrati",
+        "index": "Indeks",
+        "explanation": "Objašnjenje",
+        "closerToOne": "Vrijednost bliža 1,0 znači bolji rezultat na svim pokazateljima.",
+        "selectLocations": "Odaberite lokacije za poređenje:",
+        "smartnessIndex": {
+          "title": "Indeks pametnosti sela",
+          "description": "Složena ocjena (0–1) kroz sve dimenzije."
+        },
+        "indicator": "Pokazatelj",
+        "indicators": {
+          "1_1_1": {
+            "name": "Digitalna povezanost",
+            "description": "Mjeri dostupnost i kvalitet digitalnih mrežnih veza u ruralnoj zajednici."
+          },
+          "1_1_2": {
+            "name": "Tradicionalna povezanost",
+            "description": "Procjenjuje tradicionalne, nedigitalne oblike povezivanja (npr. poštanske usluge, telefonija)."
+          },
+          "1_1_4": {
+            "name": "Pristupačnost interneta",
+            "description": "Ispituje ekonomsku i finansijsku dostupnost internet usluga stanovnicima ruralnih područja."
+          },
+          "2_1_1": {
+            "name": "Dostupnost javnog prevoza",
+            "description": "Mjeri mogućnost korištenja i dostupnost usluga javnog prevoza."
+          },
+          "2_2_2": {
+            "name": "Nisko-ugljična vozila",
+            "description": "Procjenjuje korištenje vozila koja koriste nisko-ugljična ili obnovljiva goriva."
+          },
+          "3_2_1": {
+            "name": "Lokalna proizvodnja energije",
+            "description": "Mjeri prisutnost lokalnih energetskih izvora koji jačaju otpornost zajednice."
+          }
+        }
+      }
+    }
+  }
+}

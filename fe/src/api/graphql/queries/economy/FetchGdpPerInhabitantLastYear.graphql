@@ -1,0 +1,16 @@
+query FetchGdpPerInhabitantLastYear($pilot_nuts3: String!) {
+  datapoints(
+    survey: "nama_10r_3gdp"
+    sortBy: "year"
+    sortOrder: "desc"
+    limit: 1
+    dimensions: [$pilot_nuts3, "Million units of national currency"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

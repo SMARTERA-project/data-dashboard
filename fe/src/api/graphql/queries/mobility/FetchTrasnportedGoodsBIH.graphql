@@ -1,0 +1,16 @@
+query FetchTransportedGoodsBIH {
+  datapoints(
+    survey: "TRA_01 1.xls"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["asc"]
+    dimensions: ["Tons of goods transported, 000t"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

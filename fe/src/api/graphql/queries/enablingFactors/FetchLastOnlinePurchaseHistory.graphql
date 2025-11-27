@@ -1,0 +1,19 @@
+query FetchLastOnlinePurchaseHistory($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ISOC_R_BLT12_I"
+    sortBy: ["year"]
+    sortOrder: "desc"
+    dimensions: [
+      $pilot_nuts2
+      "Last online purchase: in the last 3 months"
+      "Percentage of individuals"
+    ]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

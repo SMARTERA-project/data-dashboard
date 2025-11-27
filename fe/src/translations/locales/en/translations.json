@@ -1,0 +1,353 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "analysis": "Analysis",
+    "help": "Help"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The content you requested is currently unavailable. You can return to the main project page for more information.",
+    "backButton": "Go home"
+  },
+  "help": {
+    "title": "Help and guidance",
+    "sections": {
+      "dataTitle": "Working with indicators",
+      "dataText": "Indicators are calculated for selected rural areas and linked to NUTS 2 and NUTS 3 regions. Use the dashboard and analysis pages to explore values, compare locations and read detailed explanations for each indicator.",
+      "mapTitle": "Understanding NUTS maps",
+      "mapText": "The map on the right shows borders of NUTS 2 and NUTS 3 regions, and highlihts NUTS regions used in the project. You can switch between levels to see how local pilot areas relate to the wider statistical regions."
+    },
+    "buttons": {
+      "backHome": "Back to home",
+      "contact": "Contact support"
+    },
+    "map": {
+      "nuts2": "NUTS 2",
+      "nuts3": "NUTS 3",
+      "alt": "Map of {{level}} regions used in the project",
+      "caption": "Source: official NUTS classification (Eurostat).",
+      "levelToggleAria": "Select NUTS map level"
+    }
+  },
+  "footer": {
+    "euLogoText1": "Co-funded by",
+    "euLogoText2": "the European Union"
+  },
+  "drawer": {
+    "title": "Regions",
+    "search": "Search for region"
+  },
+  "searchfilter": {
+    "searchfordata": "Search for data",
+    "suggestedsearch": "Suggested search",
+    "areaLevel": "Area level",
+    "showingdatafor": "Showing data for",
+    "area": "Area",
+    "search": "Search by title",
+    "hint": {
+      "country": "Country level",
+      "nuts1": "NUTS 1 level",
+      "nuts2": "NUTS 2 level",
+      "nuts3": "NUTS 3 level",
+      "pilotRegion": "Pilot region level"
+    }
+  },
+  "homepage": {
+    "title": "SMART ERA",
+    "description": "This EU project is leveraging the digital age and smart strategies to breathe new life into these regions, turning challenges into opportunities. From revitalizing infrastructure to fostering entrepreneurship, we’re creating practical solutions that make a real difference. With every step, we’re building a future where rural areas are attracting talent and investment, and setting the stage for sustainable growth."
+  },
+  "OSM": {
+    "coworkingSpace": "Coworking Space",
+    "companyOffice": "Company Office"
+  },
+  "OSM_governance": {
+    "townhall": "Townhall",
+    "courthouse": "Courthouse",
+    "governmentBuilding": "Government Building",
+    "police": "Police",
+    "fireStation": "Fire Station"
+  },
+  "OSM_mobility": {
+    "parking": "Parking",
+    "fuelStation": "Fuel Station",
+    "cycleBarrier": "Cycle Barrier",
+    "motorcycleBarrier": "Motorcycle Barrier",
+    "motorway": "Motorway",
+    "trainStation": "Train Station",
+    "publicTransport": "Public Transport",
+    "railways": "Railways"
+  },
+  "OSM_economy": {
+    "alpineHut": "Alpine Hut",
+    "campPitch": "Camp Pitch",
+    "campSite": "Camp Site",
+    "caravanSite": "Caravan Site",
+    "chalet": "Chalet",
+    "guestHouse": "Guest House",
+    "hostel": "Hostel",
+    "hotel": "Hotel",
+    "motel": "Motel",
+    "restaurant": "Restaurant",
+    "cinema": "Cinema",
+    "vendingMachine": "Vending Machine",
+    "pipeline": "Pipeline",
+    "industrialWorks": "Industrial Works",
+    "touristAttraction": "Tourist Attraction",
+    "touristInfo": "Tourist Info",
+    "museum": "Museum"
+  },
+  "OSM_environment": {
+    "forest": "Forest",
+    "river": "River",
+    "garden": "Garden",
+    "park": "Park",
+    "nationalPark": "National Park",
+    "protectedArea": "Protected Area",
+    "natureReserve": "Nature Reserve"
+  },
+  "OSM_environmentAdditional": {
+    "waterPoint": "Water Point",
+    "recycling": "Recycling",
+    "wastewaterPlant": "Wastewater Plant"
+  },
+  "OSM_service": {
+    "hospital": "Hospital",
+    "bank": "Bank",
+    "cafe": "Café",
+    "pharmacy": "Pharmacy",
+    "cinema": "Cinema",
+    "marketplace": "Marketplace",
+    "shops": "Shops",
+    "museum": "Museum"
+  },
+  "OSM_serviceEducation": {
+    "kindergarten": "Kindergarten",
+    "school": "School",
+    "college": "College",
+    "university": "University",
+    "educationOffice": "Education Office",
+    "employmentOffice": "Employment Office"
+  },
+  "Want to learn more?": "Want to learn more?",
+  "Access the comprehensive PDF reports below.": "Access the comprehensive PDF reports below.",
+  "Download PDF": "Download PDF",
+  "Open report": "Open report",
+  "Index": "Index",
+  "dashboard": {
+    "tabs": {
+      "general": "General",
+      "enablingFactors": "Enabling Factors",
+      "mobilityTransport": "Mobility & Transport",
+      "governancePolicy": "Governance & Policy",
+      "economy": "Economy",
+      "environment": "Environment",
+      "services": "Services"
+    },
+    "pilot": {
+      "smarje-padna": {
+        "title": "Šmarje–Padna",
+        "country": "Slovenia",
+        "nuts1": "Slovenia",
+        "nuts2": "Western Slovenia",
+        "nuts3": "Coastal–Karst"
+      },
+      "devetaki-plateau": {
+        "title": "Devetaki Plateau",
+        "country": "Bulgaria",
+        "nuts1": "Northern and Southeastern Bulgaria",
+        "nuts2": "Northwestern",
+        "nuts3": "Lovech"
+      },
+      "northern-ostrobothnia": {
+        "title": "Northern Ostrobothnia",
+        "country": "Finland",
+        "nuts1": "Mainland Finland",
+        "nuts2": "North and East Finland",
+        "nuts3": "Northern Ostrobothnia"
+      },
+      "valle-di-sole": {
+        "title": "Valle di Sole",
+        "country": "Italy",
+        "nuts1": "Northeast",
+        "nuts2": "Autonomous Province of Trento",
+        "nuts3": "Autonomous Province of Trento"
+      },
+      "east-herzegovina": {
+        "title": "East Herzegovina",
+        "country": "Bosnia and Herzegovina",
+        "nuts1": "Bosnia and Herzegovina"
+      },
+      "tramuntana-soller": {
+        "title": "Tramuntana/Sóller",
+        "country": "Spain",
+        "nuts1": "East",
+        "nuts2": "Balearic Islands",
+        "nuts3": "Mallorca"
+      }
+    },
+    "maps": {
+      "general": {
+        "populationDensity": "Population density"
+      },
+      "enablingFactors": {
+        "mobileCoverage": "Mobile network coverage by technology",
+        "gsmCoverage": "2G coverage",
+        "coverage3g": "3G coverage",
+        "coverage4g": "4G coverage",
+        "cellTowerDensity": "Cell tower density",
+        "numberOfCellTowers": "Number of cell towers"
+      },
+      "mobilityTransport": {
+        "dailyBusStopFrequency": "Daily bus stop frequency",
+        "busStopDensity": "Bus stop density",
+        "numberOfBusStops": "Number of bus stops",
+        "cyclingWalkingInfrastructure": "Cycling and walking infrastructure",
+        "allCyclingAccessiblePathLength": "Length of all cycling accessible paths",
+        "designatedWalkingCyclingPathLength": "Length of designated walking and cycling paths",
+        "residentialWalkingCyclingPathLength": "Length of residential walking and cycling paths",
+        "summedWalkingCyclingPathLength": "Summed length of paths"
+      },
+      "services": {
+        "postalServiceDensity": "Postal service density",
+        "postOfficeDensity": "Post office density",
+        "numberOfPostOffices": "Number of post offices",
+        "postBoxDensity": "Post box density",
+        "numberOfPostBoxes": "Number of post boxes",
+        "carAccessibility": "Accessibility by car",
+        "carAccessibilityPost": "Accessibility by car to postal services",
+        "carAccessibilityEvCharger": "Accessibility by car to electric vehicle charging stations",
+        "carAccessibilityGroceryStore": "Accessibility by car to grocery stores",
+        "carAccessibilityLibrary": "Accessibility by car to libraries"
+      },
+      "helpers": {
+        "available": "Available",
+        "notAvailable": "Not available"
+      }
+    },
+    "charts": {
+      "general": {
+        "leadingCitizenships": "Leading citizenships of residents",
+        "totalPopulationChange": "Total population change over time",
+        "yearlyLiveBirths": "Yearly live births (last annual data)",
+        "yearlyDeaths": "Yearly deaths (last annual data)",
+        "netMigrations": "Net migrations (adjusted) over time",
+        "populationBySex": "Population by sex",
+        "populationByAgeAndSex": "Population by age group and sex",
+        "populationByMaritalStatus": "Population by marital status",
+        "populationByHouseholdTypeAgeSex": "Population by household type, age group and sex (Census ",
+        "populationDensity": "Population density (people per km²)",
+        "maritalStatusDistribution": "Marital Status Distribution"
+      },
+      "enablingFactors": {
+        "internetUseFrequency": "Individuals’ internet-use frequency (in %)",
+        "householdsWithInternetAccess": "Percentage of households with internet access",
+        "internetUseActivities": "Individuals’ internet-use activities (in %)",
+        "buyingOnlineLast3Months": "% Buying online (last 3 Mo)",
+        "buyingOnlineLast3MonthsOverTime": "% Buying online (last 3 Mo) over time",
+        "onlineInteractionWithAuthorities": "% Interacted online with authorities (last 1 yr)",
+        "internetAccessSpeedEnterprises": "Internet Access Speed in Enterprises",
+        "enablingInfrastructure": "Enabling Infrastructure"
+      },
+      "economy": {
+        "gvaByCurrency": "Gross Value Added by currency",
+        "nominalLabourProductivity": "Nominal labour productivity in € per person",
+        "gdpLastYear": "GDP in last reported year",
+        "employedPersonsNACE": "Employed persons (NACE)",
+        "topEmploymentCategories": "Top Employment Categories",
+        "gdpPerInhabitant": "GDP per inhabitant in €",
+        "employmentByBusinessSector": "Employment by Business Sector",
+        "enterpriseSizeClass": "Enterprise size class (industry, construction and market services)",
+        "patentApplicationsPerMillion": "Number of patent applications per million inhabitants",
+        "highGrowthEnterprises": "Number of High-Growth Enterprises (HGE) by employment – top sectors (latest year)",
+        "bihActivitiesIndex": "Leading categories of service activities by gross index",
+        "totalServicesIndex": "Total services index (baseline year: 2021)",
+        "totalNetEarningsBIH": "Mean net monthly earnings",
+        "totalGrossEarningsBIH": "Mean gross monthly earnings",
+        "touristNightsBIH": "Total number of tourist nights",
+        "numberOfCompaniesBIH": "Number of enterprises and entrepreneurs",
+        "employmentTopSectorsBIH": "Top sectors based on number of persons employed (2023)",
+        "touristLodgingFacilities": "Tourist lodging facilities",
+        "additionalEconomyIndicators": "Additional economy indicators"
+      },
+      "mobilityTransport": {
+        "transportedGoodsLoaded": "Goods transported by road, loaded in region (tt)",
+        "mostTransportedGoods": "Most transported goods, loaded in region (tt)",
+        "transportedGoodsUnloaded": "Goods transported by road, unloaded in region (tt)",
+        "electricPassengerCars": "Electric passenger cars registered",
+        "transportedGoodsBreakdown": "Loaded transported goods breakdown (tt)",
+        "railwayPassengerTransport": "Railway passenger transport",
+        "transportedGoodsBIH": "Tons of goods transported (tt)",
+        "transportedGoodsIndexBIH": "Gross index of goods transported (baseline year: 2021)",
+        "additionalMobilityIndicators": "Additional mobility indicators",
+        "keyPublicTransportIndicators": "Key public transport indicators"
+      },
+      "governancePolicy": {
+        "employedPersonsTotal": "Number of employed persons in thousands",
+        "employmentRate": "Percentage of all people employed",
+        "rdExpenditure": "Expenditure on R&D (million €)",
+        "keyGovernanceIndicators": "Key governance indicators"
+      },
+      "environment": {
+        "heatingDegreeDays": "Annual heating degree days",
+        "coolingDegreeDays": "Annual cooling degree days",
+        "landUseDistribution": "Land use distribution by category (inha)",
+        "recyclingFacilitiesCount": "Nr. of recycling facilities",
+        "energyRecovery": "Waste energy recovery (t/year)",
+        "recyclingPlusFacilitiesCount": "Nr. of recycling and backfilling facilities",
+        "miningCoalLigniteIndex": "Mining of coal and lignite gross index (baseline year: 2021)",
+        "utilityIndicators": "Environmental utility indicators",
+        "greenSpaceIndicators": "Green space indicators"
+      },
+      "services": {
+        "hospitalDischargesTotal": "Annual hospital discharges by number of patients",
+        "topHospitalDischargesByDiagnosis": "Top hospital discharges by diagnosis (patient number, latest reported year)",
+        "hospitalDischargesByAgeGroup": "Hospital discharges by age group",
+        "youthNeetByGenderYear": "Youth not in employment, education or training by gender and year",
+        "educationalAttainmentYouth": "Educational attainment for youth ages 15 to 24",
+        "tertiaryEnrollment": "Annual students enrolled in tertiary education (latest reported year)",
+        "disposalCapacity": "Landfill waste disposal capacity (m³)",
+        "publicAndCommercial": "Public and commercial services indicators",
+        "educationAndEmploymentInfra": "Education and employment infrastructure indicators"
+      },
+      "analysis": {
+        "maxVillagesSelected": "Max {{count}} villages selected",
+        "index": "Index",
+        "explanation": "Explanation",
+        "closerToOne": "Closer to 1.0 reflects stronger performance across indicators.",
+        "selectLocations": "Select locations to compare:",
+        "smartnessIndex": {
+          "title": "Village Smartness Index",
+          "description": "Composite score (0–1) across all dimensions."
+        },
+        "indicator": "Indicator",
+        "indicators": {
+          "1_1_1": {
+            "name": "Digital Connectivity",
+            "description": "Measures the availability and quality of digital network connections within a rural community."
+          },
+          "1_1_2": {
+            "name": "Traditional Connectivity",
+            "description": "Assesses traditional, non-digital means of connectivity (e.g., postal services, telephony), etc."
+          },
+          "1_1_4": {
+            "name": "Affordability of Internet",
+            "description": "Examines the affordability and economic accessibility of internet services for rural residents, etc."
+          },
+          "2_1_1": {
+            "name": "Public Transport Accessibility",
+            "description": "Measures the extent to which public transport services are available and accessible, etc."
+          },
+          "2_2_2": {
+            "name": "Low-Carbon Vehicles",
+            "description": "Assesses adoption and use of vehicles powered by low-carbon or renewable fuels, etc."
+          },
+          "3_2_1": {
+            "name": "Local Energy Generation",
+            "description": "Measures the spread of localized energy generation facilities, enhancing local energy resilience."
+          }
+        }
+      }
+    }
+  }
+}

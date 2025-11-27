@@ -1,0 +1,19 @@
+query FetchEnergyRecovery($pilot_nuts2: String!) {
+  datapoints(
+    survey: "ENV_WASFAC"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [
+      $pilot_nuts2
+      "Capacity - tonnes per year"
+      "Recovery - energy recovery (R1)"
+    ]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

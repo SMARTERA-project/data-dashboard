@@ -1,0 +1,14 @@
+export { default as FetchTransportedGoods } from '@api/graphql/queries/mobility/FetchTransportedGoods.graphql';
+export { default as FetchTopTransported } from '@api/graphql/queries/mobility/FetchTopTransported.graphql';
+export { default as FetchImportedGoods } from '@api/graphql/queries/mobility/FetchImportedGoods.graphql';
+export { default as FetchElectricVehicles } from '@api/graphql/queries/mobility/FetchElectricVehicles.graphql';
+export { default as FetchTransportedDetails } from '@api/graphql/queries/mobility/FetchTransportedDetails.graphql';
+export { default as FetchRailwayPassengers } from '@api/graphql/queries/mobility/FetchRailwayPassengers.graphql';
+export { default as FetchMobilityIcons } from '@api/graphql/queries/mobility/FetchMobilityIcons.graphql';
+export { default as FetchPublicTransportIcons } from '@api/graphql/queries/mobility/FetchPublicTransportIcons.graphql';
+export { default as FetchTransportedGoodsBIH } from '@api/graphql/queries/mobility/FetchTrasnportedGoodsBIH.graphql';
+export { default as FetchTransportedGoodsIndexBIH } from '@api/graphql/queries/mobility/FetchTransportedGoodsIndexBIH.graphql';
+export { default as FetchTotalServicesIndexBIH } from '@api/graphql/queries/economy/FetchTotalServicesIndexBIH.graphql';
+export { default as FetchTotalNetEarningsBIH } from '@api/graphql/queries/economy/FetchTotalNetEarningsBIH.graphql';
+export { default as FetchGrossPayBIH } from '@api/graphql/queries/economy/FetchGrossPayBIH.graphql';
+export { default as FetchEmplomenetBIH } from '@api/graphql/queries/economy/FetchEmplomenetBIH.graphql';

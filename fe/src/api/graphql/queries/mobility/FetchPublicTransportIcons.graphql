@@ -1,0 +1,47 @@
+query FetchPublicTransportIcons($pilot: String!) {
+  motorway: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Motorway"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  train: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Train Station"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  public_transport: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Public Transport"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  railways: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Railways"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  train_station: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Train Station"]
+  ) {
+    region
+    dimensions
+    value
+  }
+}

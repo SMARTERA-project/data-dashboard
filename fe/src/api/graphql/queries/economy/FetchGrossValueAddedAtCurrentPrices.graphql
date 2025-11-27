@@ -1,0 +1,15 @@
+query FetchGrossValueAddedAtCurrentPrices($pilot_nuts3: String!) {
+  datapoints(
+    survey: "nama_10r_3gva"
+    sortBy: "value"
+    sortOrder: "asc"
+    dimensions: [$pilot_nuts3, "Total - all NACE activities"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

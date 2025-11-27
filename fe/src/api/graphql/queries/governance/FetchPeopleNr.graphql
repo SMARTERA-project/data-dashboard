@@ -1,0 +1,16 @@
+query FetchPeopleNr($pilot_nuts3: String!) {
+  datapoints(
+    survey: "demo_r_pjanaggr3"
+    sortBy: ["year", "value"]
+    sortOrder: ["desc", "desc"]
+    dimensions: [$pilot_nuts3, "Total"]
+    limit: 1
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

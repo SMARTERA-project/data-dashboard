@@ -1,0 +1,15 @@
+query FetchNominalProductivity($pilot_nuts3: String!) {
+  datapoints(
+    survey: "nama_10r_3nlp"
+    sortBy: "value"
+    sortOrder: "asc"
+    dimensions: [$pilot_nuts3, "National currency"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

@@ -1,0 +1,10 @@
+query FetchSmartness($village: String!) {
+  datapoints(survey: $village) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

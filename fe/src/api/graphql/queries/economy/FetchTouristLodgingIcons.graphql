@@ -1,0 +1,67 @@
+query FetchTouristLodgingIcons($pilot: String!) {
+  alpine_hut: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Alpine Hut"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  camp_pitch: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Camp Pitch"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  camp_site: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Camp Site"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  caravan_site: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Caravan Site"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  chalet: datapoints(source: "OSM", region: $pilot, dimensions: ["Chalet"]) {
+    region
+    dimensions
+    value
+  }
+  guest_house: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Guest House"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  hostel: datapoints(source: "OSM", region: $pilot, dimensions: ["Hostel"]) {
+    region
+    dimensions
+    value
+  }
+  hotel: datapoints(source: "OSM", region: $pilot, dimensions: ["Hotel"]) {
+    region
+    dimensions
+    value
+  }
+  motel: datapoints(source: "OSM", region: $pilot, dimensions: ["Motel"]) {
+    region
+    dimensions
+    value
+  }
+}

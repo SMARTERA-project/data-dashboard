@@ -1,0 +1,16 @@
+export { default as FetchBusinessSizeClass } from '@api/graphql/queries/economy/FetchBusinessSizeClass.graphql';
+export { default as FetchEmployerStructure } from '@api/graphql/queries/economy/FetchEmployerStructure.graphql';
+export { default as FetchGdpPerInhabitant } from '@api/graphql/queries/economy/FetchGdpPerInhabitant.graphql';
+export { default as FetchGdpPerInhabitantLastYear } from '@api/graphql/queries/economy/FetchGdpPerInhabitantLastYear.graphql';
+export { default as FetchGrossValueAddedAtCurrentPrices } from '@api/graphql/queries/economy/FetchGrossValueAddedAtCurrentPrices.graphql';
+export { default as FetchHighGrowingEnterprises } from '@api/graphql/queries/economy/FetchHighGrowingEnterprises.graphql';
+export { default as FetchNominalProductivity } from '@api/graphql/queries/economy/FetchNominalProductivity.graphql';
+export { default as FetchNumberNACEmployees } from '@api/graphql/queries/economy/FetchNumberNACEmployees.graphql';
+export { default as FetchPatentApplication } from '@api/graphql/queries/economy/FetchPatentApplication.graphql';
+export { default as FetchTopEmploymentCategories } from '@api/graphql/queries/economy/FetchTopEmploymentCategories.graphql';
+export { default as FetchTouristLodgingIcons } from '@api/graphql/queries/economy/FetchTouristLodgingIcons.graphql';
+export { default as FetchEconomyIcons } from '@api/graphql/queries/economy/FetchEconomyIcons.graphql';
+export { default as FetchEconomyActivitiesBIH } from '@api/graphql/queries/economy/FetchEconomyActivitiesBIH.graphql';
+export { default as FetchTouristNightsBIH } from '@api/graphql/queries/economy/FetchTouristNightsBIH.graphql';
+export { default as FetchCompaniesBIH } from '@api/graphql/queries/economy/FetchCompaniesBIH.graphql';
+export { default as FetchEmploymentBIH } from '@api/graphql/queries/economy/FetchEmploymentBIH.graphql';

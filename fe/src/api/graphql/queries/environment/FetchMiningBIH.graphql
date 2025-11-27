@@ -1,0 +1,16 @@
+query FetchMiningBIH {
+  datapoints(
+    survey: "IND_01.xlsx"
+    region: "bih"
+    sortBy: ["dimensions"]
+    sortOrder: ["asc"]
+    dimensions: ["Mining of coal and lignite", "Gross Index"]
+  ) {
+    dimensions
+    value
+    source
+    surveyName
+    timestamp
+    region
+  }
+}

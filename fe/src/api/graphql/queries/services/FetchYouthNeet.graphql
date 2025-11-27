@@ -1,0 +1,16 @@
+query FetchYouthNeet($pilot_nuts2: String!) {
+  datapoints(
+    survey: "EDAT_LFSE_22"
+    sortBy: ["year"]
+    sortOrder: ["asc"]
+    dimensions: [$pilot_nuts2, "From 15 to 29 years"]
+    exclude: ["Total"]
+  ) {
+    region
+    source
+    timestamp
+    survey
+    dimensions
+    value
+  }
+}

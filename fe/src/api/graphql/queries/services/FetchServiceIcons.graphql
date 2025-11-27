@@ -1,0 +1,54 @@
+query FetchServiceIcons($pilot: String!) {
+  hospital: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Hospital"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  bank: datapoints(source: "OSM", region: $pilot, dimensions: ["Bank"]) {
+    region
+    dimensions
+    value
+  }
+  cafe: datapoints(source: "OSM", region: $pilot, dimensions: ["Café"]) {
+    region
+    dimensions
+    value
+  }
+  pharmacy: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Pharmacy"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  cinema: datapoints(source: "OSM", region: $pilot, dimensions: ["Cinema"]) {
+    region
+    dimensions
+    value
+  }
+  marketplace: datapoints(
+    source: "OSM"
+    region: $pilot
+    dimensions: ["Marketplace"]
+  ) {
+    region
+    dimensions
+    value
+  }
+  shops: datapoints(source: "OSM", region: $pilot, dimensions: ["Shops"]) {
+    region
+    dimensions
+    value
+  }
+  museum: datapoints(source: "OSM", region: $pilot, dimensions: ["Museum"]) {
+    region
+    dimensions
+    value
+  }
+}
